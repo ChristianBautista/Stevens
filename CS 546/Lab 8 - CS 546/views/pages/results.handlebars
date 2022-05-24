@@ -1,0 +1,16 @@
+{{#if results.length}}
+    <h1>{{title}}</h1>
+    <h2>{{showSearchTerm}}</h2>
+    <section class="section-styling">
+        <ul>
+            {{#each results}}
+                <li>
+                    <a href="/show/{{id}}" class="result">{{name}}</a>
+                </li>
+            {{/each}}
+        </ul>  
+    </section>
+{{else}}
+    <p class="show-not-found">We're sorry, but no results were found for {{showSearchTerm}}.</p>
+{{/if}}
+<a href="/" class="search-footer">Make another search</a>

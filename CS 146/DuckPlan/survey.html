@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>DuckPlan S</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+  	</head>
+  	<body>
+		<ul class="navbar">
+			<li><a href="index.html">Home</a></li>
+			<li><a class="active" href="survey.html">Survey</a></li>
+			<li><a href="calendar.html">Calendar</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+        <h2 class="survey-header"><i>Contribute to your planned workload by filling out the survey!</i></h2>
+        <div class="survey-page">
+            <div class="survey">
+                <div id="error" class="error-message"></div>
+                <div id="success" class="success-message"></div>
+                <form id="form" class="survey-form" action="/" method="GET">
+                    <label for="course">What course was this assignment for?</label>
+                    <input type="text" id="course" name="course" placeholder="course">
+                    <label for="professor">What professor do you have for this course?</label>
+                    <input type="text" id="professor" name="professor" placeholder="professor">
+                    <label for="assignment-types">What type of assignment was this?</label>
+                    <select id="assignment-types" name="assignment-types">
+                        <option>Choose an assignment type</option>
+                        <option value="homework">Homework</option>
+                        <option value="studying">Studying</option>
+                        <option value="reading">Reading</option>
+                        <option value="paper">Paper</option>
+                        <option value="presentation">Presentation</option>
+                        <option value="lab">Lab</option>
+                        <option value="project">Project</option>
+                    </select>
+                    <label for="time">About how long, in hours (can use increments of .5), did this assignment take you to complete?</label>
+                    <input type="text" id="time" name="time" placeholder="time">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

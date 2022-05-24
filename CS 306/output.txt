@@ -1,0 +1,8572 @@
+Crib Scrub: 
+Ciphertext A: 001011010000101000000110000100100000011000011011000010010100010000000000000011010001011000011111000011000001011101000110010000110000110000001111000010010101001000011000000110110000000001001100000100110001000100001000000010110100111000000111010010010100100001010010
+Length of Ciphertext A: 264
+Ciphertext B: 001000000000101000000101010001100010011001010101000011010000010100011010010010000001011100001110000001000001110100000001000110100000000000011011010001110000001000000100000001100001001100001001000000100000000000000101000101100100111000010101010010000100111101000100
+Length of Ciphertext B: 264
+Word: 010101000110010101110011011101000110100101101110011001110010000001110100011001010111001101110100011010010110111001100111001000000110001101100001011011100010000001111001011011110111010100100000011100100110010101100001011001000010000001110100011010000110100101110011
+Length of Word: 264
+XOR of Ciphertexts: 000011010000000000000011010101000010000001001110000001000100000100011010010001010000000100010001000010000000101001000111010110010000110000010100010011100101000000011100000111010001001101000101000100010001000100001101000111010000000000010010000000010000011100010110
+Length of XOR of Ciphertexts: 264
+
+Crib Scrub: 
+bcX char: 00001101
+Word char: 01010100
+bXi: 01011001
+dec: 89
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000000
+Word char: 01100101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000011
+Word char: 01110011
+bXi: 01110000
+dec: 112
+Valid: true
+
+Crib Scrub: 
+bcX char: 01010100
+Word char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00100000
+Word char: 01101001
+bXi: 01001001
+dec: 73
+Valid: true
+
+Crib Scrub: 
+bcX char: 01001110
+Word char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000100
+Word char: 01100111
+bXi: 01100011
+dec: 99
+Valid: true
+
+Crib Scrub: 
+bcX char: 01000001
+Word char: 00100000
+bXi: 01100001
+dec: 97
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011010
+Word char: 01110100
+bXi: 01101110
+dec: 110
+Valid: true
+
+Crib Scrub: 
+bcX char: 01000101
+Word char: 01100101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000001
+Word char: 01110011
+bXi: 01110010
+dec: 114
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010001
+Word char: 01110100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Crib Scrub: 
+bcX char: 00001000
+Word char: 01101001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Crib Scrub: 
+bcX char: 00001010
+Word char: 01101110
+bXi: 01100100
+dec: 100
+Valid: true
+
+Crib Scrub: 
+bcX char: 01000111
+Word char: 01100111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 01011001
+Word char: 00100000
+bXi: 01111001
+dec: 121
+Valid: true
+
+Crib Scrub: 
+bcX char: 00001100
+Word char: 01100011
+bXi: 01101111
+dec: 111
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010100
+Word char: 01100001
+bXi: 01110101
+dec: 117
+Valid: true
+
+Crib Scrub: 
+bcX char: 01001110
+Word char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 01010000
+Word char: 00100000
+bXi: 01110000
+dec: 112
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011100
+Word char: 01111001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011101
+Word char: 01101111
+bXi: 01110010
+dec: 114
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010011
+Word char: 01110101
+bXi: 01100110
+dec: 102
+Valid: true
+
+Crib Scrub: 
+bcX char: 01000101
+Word char: 00100000
+bXi: 01100101
+dec: 101
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010001
+Word char: 01110010
+bXi: 01100011
+dec: 99
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010001
+Word char: 01100101
+bXi: 01110100
+dec: 116
+Valid: true
+
+Crib Scrub: 
+bcX char: 00001101
+Word char: 01100001
+bXi: 01101100
+dec: 108
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011101
+Word char: 01100100
+bXi: 01111001
+dec: 121
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000000
+Word char: 00100000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010010
+Word char: 01110100
+bXi: 01100110
+dec: 102
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000001
+Word char: 01101000
+bXi: 01101001
+dec: 105
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000111
+Word char: 01101001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010110
+Word char: 01110011
+bXi: 01100101
+dec: 101
+Valid: true
+
+Crib Scrub: 
+Valid: true
+
+Valid Key Check:
+key: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001
+start: 0
+end: 264
+
+Valid Key Check:
+ctr: 0
+bc char: 00101101
+Key char: 01111001
+bXi: 01010100
+dec: 84
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000110
+Key char: 01110101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010010
+Key char: 01100110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000110
+Key char: 01101111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011011
+Key char: 01110101
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001001
+Key char: 01101110
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000100
+Key char: 01100100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000000
+Key char: 01110100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001101
+Key char: 01101000
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010110
+Key char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011111
+Key char: 01101011
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001100
+Key char: 01100101
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010111
+Key char: 01111001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000110
+Key char: 00100001
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000011
+Key char: 01100011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001100
+Key char: 01101111
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001111
+Key char: 01101110
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001001
+Key char: 01100111
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01010010
+Key char: 01110010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011000
+Key char: 01100001
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000000
+Key char: 01110101
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001100
+Key char: 01101100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010011
+Key char: 01100001
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010001
+Key char: 01110100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001000
+Key char: 01101001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001011
+Key char: 01101111
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000111
+Key char: 01110011
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001001
+Key char: 00100001
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001000
+Key char: 00100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01010010
+Key char: 00100001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00100000
+Key char: 01111001
+bXi: 01011001
+dec: 89
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01110101
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000110
+Key char: 01100110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00100110
+Key char: 01101111
+bXi: 01001001
+dec: 73
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001101
+Key char: 01101110
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01100100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011010
+Key char: 01110100
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001000
+Key char: 01101000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010111
+Key char: 01100101
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001110
+Key char: 01101011
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000100
+Key char: 01100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011101
+Key char: 01111001
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011010
+Key char: 01100011
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000000
+Key char: 01101111
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011011
+Key char: 01101110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000111
+Key char: 01100111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000010
+Key char: 01110010
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000100
+Key char: 01100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000110
+Key char: 01110100
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010011
+Key char: 01110101
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001001
+Key char: 01101100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000010
+Key char: 01100001
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000000
+Key char: 01110100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01101001
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010110
+Key char: 01101111
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010101
+Key char: 01110011
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001000
+Key char: 00100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001111
+Key char: 00100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000100
+Key char: 00100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00111000
+Key char: 01111001
+bXi: 01000001
+dec: 65
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011000
+Key char: 01101111
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010000
+Key char: 01110101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010101
+Key char: 01100110
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000000
+Key char: 01101111
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011000
+Key char: 01110101
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00001011
+Key char: 01101110
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01000100
+Key char: 01100100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000110
+Key char: 01101000
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000000
+Key char: 01100101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01001011
+Key char: 01101011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010001
+Key char: 01100101
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010000
+Key char: 01111001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01001100
+Key char: 00100001
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000110
+Key char: 01100011
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011110
+Key char: 01101110
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000110
+Key char: 01100111
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010110
+Key char: 01110010
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01000001
+Key char: 01100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011101
+Key char: 01110100
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000110
+Key char: 01110101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01001100
+Key char: 01101100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010110
+Key char: 01100001
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011011
+Key char: 01101001
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000100
+Key char: 01101111
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000111
+Key char: 01101110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011101
+Key char: 01110011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01000110
+Key char: 00100001
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00100000
+Key char: 01111001
+bXi: 01011001
+dec: 89
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001110
+Key char: 01101111
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001100
+Key char: 01110101
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01000110
+Key char: 01100110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011000
+Key char: 01101111
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00010000
+Key char: 01110101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000111
+Key char: 01100100
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00010101
+Key char: 01110100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000110
+Key char: 01101000
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01000101
+Key char: 01100101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000110
+Key char: 01101011
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000100
+Key char: 01100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00010010
+Key char: 01111001
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01000100
+Key char: 00100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01000011
+Key char: 01100011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001001
+Key char: 01101111
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011011
+Key char: 01101110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001001
+Key char: 01100111
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01010010
+Key char: 01110010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001110
+Key char: 01100001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00010010
+Key char: 01110100
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00100010
+Key char: 01101100
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001000
+Key char: 01100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011111
+Key char: 01110100
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000110
+Key char: 01101001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011100
+Key char: 01101111
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011101
+Key char: 01110011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01001110
+Key char: 00100001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01010110
+Key char: 00100001
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00110000
+Key char: 01111001
+bXi: 01001001
+dec: 73
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011101
+Key char: 01110101
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001001
+Key char: 01100110
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011111
+Key char: 01101111
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010000
+Key char: 01110101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001010
+Key char: 01100100
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001000
+Key char: 01101000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010110
+Key char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011111
+Key char: 01101011
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010000
+Key char: 01100101
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011101
+Key char: 01111001
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01000100
+Key char: 00100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001101
+Key char: 01100011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000100
+Key char: 01100111
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010011
+Key char: 01110010
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001111
+Key char: 01100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000111
+Key char: 01110101
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001001
+Key char: 01101100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000000
+Key char: 01100001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010000
+Key char: 01110100
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001001
+Key char: 01101001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000110
+Key char: 01101110
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011010
+Key char: 01110011
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01010010
+Key char: 00100001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00101101
+Key char: 01111001
+bXi: 01010100
+dec: 84
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000111
+Key char: 01101111
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010100
+Key char: 01110101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010010
+Key char: 01100110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000010
+Key char: 01110101
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000001
+Key char: 01101110
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010001
+Key char: 01100100
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011000
+Key char: 01110100
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00001100
+Key char: 01101000
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01000101
+Key char: 01100101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00001001
+Key char: 01101011
+bXi: 01100010
+dec: 98
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000000
+Key char: 01100101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01011001
+Key char: 01111001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01010000
+Key char: 00100001
+bXi: 01110001
+dec: 113
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010110
+Key char: 01100011
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000110
+Key char: 01101111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011010
+Key char: 01101110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000010
+Key char: 01100111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01010010
+Key char: 01110010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000100
+Key char: 01100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011001
+Key char: 01110100
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010111
+Key char: 01110101
+bXi: 01100010
+dec: 98
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00001101
+Key char: 01101100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010011
+Key char: 01100001
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000110
+Key char: 01110100
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00001000
+Key char: 01101001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011100
+Key char: 01101111
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011101
+Key char: 01101110
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011010
+Key char: 01110011
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01001111
+Key char: 00100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01000110
+Key char: 00100001
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00110101
+Key char: 01111001
+bXi: 01001100
+dec: 76
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011010
+Key char: 01101111
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010110
+Key char: 01110101
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001101
+Key char: 01100110
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000110
+Key char: 01101111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011001
+Key char: 01110101
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010111
+Key char: 01101110
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 01000100
+Key char: 01100100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00111011
+Key char: 01110100
+bXi: 01001111
+dec: 79
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00111100
+Key char: 01101000
+bXi: 01010100
+dec: 84
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00110101
+Key char: 01100101
+bXi: 01010000
+dec: 80
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 01001011
+Key char: 01101011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001100
+Key char: 01100101
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001010
+Key char: 01111001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010011
+Key char: 01100011
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011100
+Key char: 01101110
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 01100111
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010111
+Key char: 01110010
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000010
+Key char: 01100001
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000000
+Key char: 01110100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011001
+Key char: 01110101
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010101
+Key char: 01101100
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 01000001
+Key char: 01100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000111
+Key char: 01110100
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001100
+Key char: 01101001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001100
+Key char: 01101111
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011011
+Key char: 01101110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 01110011
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 01000100
+Key char: 00100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00111101
+Key char: 01111001
+bXi: 01000100
+dec: 68
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000110
+Key char: 01101111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010001
+Key char: 01110101
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001000
+Key char: 01100110
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00100000
+Key char: 01101110
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001101
+Key char: 01100100
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00011111
+Key char: 01110100
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000111
+Key char: 01101000
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010110
+Key char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01001011
+Key char: 01101011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010110
+Key char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00011000
+Key char: 01111001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01011000
+Key char: 00100001
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01000011
+Key char: 01100011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000110
+Key char: 01101110
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000010
+Key char: 01100111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000000
+Key char: 01110010
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000100
+Key char: 01100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000010
+Key char: 01110101
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001101
+Key char: 01101100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010010
+Key char: 01100001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001000
+Key char: 01101001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001101
+Key char: 01101110
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010010
+Key char: 01110011
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01010101
+Key char: 00100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01000010
+Key char: 00100001
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01001001
+Key char: 00100001
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00110100
+Key char: 01111001
+bXi: 01001101
+dec: 77
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001110
+Key char: 01101111
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001100
+Key char: 01110101
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000100
+Key char: 01100110
+bXi: 01100010
+dec: 98
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001100
+Key char: 01101110
+bXi: 01100010
+dec: 98
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010001
+Key char: 01100100
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000000
+Key char: 01110100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01001000
+Key char: 01101000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00101100
+Key char: 01100101
+bXi: 01001001
+dec: 73
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01001011
+Key char: 01101011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000001
+Key char: 01100101
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010000
+Key char: 01111001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01000101
+Key char: 00100001
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001101
+Key char: 01100011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010111
+Key char: 01100111
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010011
+Key char: 01110010
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011000
+Key char: 01100001
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010100
+Key char: 01110101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011000
+Key char: 01101100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010001
+Key char: 01110100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000111
+Key char: 01101001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000111
+Key char: 01101110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011100
+Key char: 01110011
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01001111
+Key char: 00100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00101110
+Key char: 01111001
+bXi: 01010111
+dec: 87
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010101
+Key char: 01100110
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000111
+Key char: 01101111
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011010
+Key char: 01110101
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011011
+Key char: 01101110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00001000
+Key char: 01100100
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010000
+Key char: 01110100
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001000
+Key char: 01101000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010111
+Key char: 01100101
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00001110
+Key char: 01101011
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000100
+Key char: 01100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010101
+Key char: 01111001
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001101
+Key char: 00100001
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011010
+Key char: 01100011
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000010
+Key char: 01101110
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00001110
+Key char: 01100111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000001
+Key char: 01110010
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010001
+Key char: 01110100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011011
+Key char: 01110101
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001100
+Key char: 01101100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001001
+Key char: 01101001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00100001
+Key char: 01101111
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000111
+Key char: 01101110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011000
+Key char: 01110011
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001110
+Key char: 00100001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01010010
+Key char: 00100001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00110111
+Key char: 01111001
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001110
+Key char: 01101111
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011101
+Key char: 01110101
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01000110
+Key char: 01100110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011000
+Key char: 01101111
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00010000
+Key char: 01110101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000101
+Key char: 01100100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000110
+Key char: 01110100
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001101
+Key char: 01101000
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01000101
+Key char: 01100101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001111
+Key char: 01101011
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001010
+Key char: 01100101
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00010000
+Key char: 01111001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001111
+Key char: 00100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000100
+Key char: 01100011
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001000
+Key char: 01101110
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001110
+Key char: 01100111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011100
+Key char: 01110010
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000100
+Key char: 01100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000010
+Key char: 01110101
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000101
+Key char: 01101100
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011100
+Key char: 01110100
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000110
+Key char: 01101001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011010
+Key char: 01101111
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011010
+Key char: 01101110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01010011
+Key char: 01110011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001001
+Key char: 00100001
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001000
+Key char: 00100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001100
+Key char: 00100001
+bXi: 01101101
+dec: 109
+Valid: true
+
+Crib Scrub: {0, 264, 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001}
+
+Valid Key Check:
+key: 011101000110111101110110001100100100111100111011011010100010010101101110001011010110010001111010011011010111001101100110001110100110001101111010001010010010001001111101011010010110011000101001011100000110010101100100011100100110111001100001001000000010011000110111
+start: 0
+end: 264
+
+Valid Key Check:
+ctr: 0
+bc char: 00101101
+Key char: 01110100
+bXi: 01011001
+dec: 89
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000110
+Key char: 01110110
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010010
+Key char: 00110010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000110
+Key char: 01001111
+bXi: 01001001
+dec: 73
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011011
+Key char: 00111011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001001
+Key char: 01101010
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000100
+Key char: 00100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000000
+Key char: 01101110
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001101
+Key char: 00101101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010110
+Key char: 01100100
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011111
+Key char: 01111010
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001100
+Key char: 01101101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010111
+Key char: 01110011
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000110
+Key char: 01100110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000011
+Key char: 00111010
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001100
+Key char: 01100011
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001111
+Key char: 01111010
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001001
+Key char: 00101001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01010010
+Key char: 00100010
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011000
+Key char: 01111101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011011
+Key char: 01101001
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000000
+Key char: 01100110
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001100
+Key char: 00101001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010011
+Key char: 01110000
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010001
+Key char: 01100101
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001000
+Key char: 01100100
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001011
+Key char: 01110010
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000111
+Key char: 01100001
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001001
+Key char: 00100000
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001000
+Key char: 00100110
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01010010
+Key char: 00110111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00100000
+Key char: 01110100
+bXi: 01010100
+dec: 84
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01110110
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000110
+Key char: 00110010
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00100110
+Key char: 01001111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01010101
+Key char: 00111011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001101
+Key char: 01101010
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 00100101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011010
+Key char: 01101110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001000
+Key char: 00101101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010111
+Key char: 01100100
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001110
+Key char: 01111010
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000100
+Key char: 01101101
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011101
+Key char: 01110011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000001
+Key char: 01100110
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011010
+Key char: 00111010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000000
+Key char: 01100011
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011011
+Key char: 01111010
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000111
+Key char: 00101001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000010
+Key char: 00100010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000100
+Key char: 01111101
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000110
+Key char: 01101001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010011
+Key char: 01100110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001001
+Key char: 00101001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000010
+Key char: 01110000
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000000
+Key char: 01100101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01100100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010110
+Key char: 01110010
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001000
+Key char: 00100000
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001111
+Key char: 00100110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000100
+Key char: 00110111
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00111000
+Key char: 01110100
+bXi: 01001100
+dec: 76
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011000
+Key char: 01101111
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010000
+Key char: 01110110
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010101
+Key char: 00110010
+bXi: 00100111
+dec: 39
+Valid: false
+
+
+1
+{0, 264, 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001}
+
+Update Key: Number of Fragments: 1
+
+Update Key: 
+Fragment #: 1
+Start: 0
+End: 33
+Key Fragment: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001
+
+Update Key: {0, {01111001}}
+
+Update Key: {1, {01101111}}
+
+Update Key: {2, {01110101}}
+
+Update Key: {3, {01100110}}
+
+Update Key: {4, {01101111}}
+
+Update Key: {5, {01110101}}
+
+Update Key: {6, {01101110}}
+
+Update Key: {7, {01100100}}
+
+Update Key: {8, {01110100}}
+
+Update Key: {9, {01101000}}
+
+Update Key: {10, {01100101}}
+
+Update Key: {11, {01101011}}
+
+Update Key: {12, {01100101}}
+
+Update Key: {13, {01111001}}
+
+Update Key: {14, {00100001}}
+
+Update Key: {15, {01100011}}
+
+Update Key: {16, {01101111}}
+
+Update Key: {17, {01101110}}
+
+Update Key: {18, {01100111}}
+
+Update Key: {19, {01110010}}
+
+Update Key: {20, {01100001}}
+
+Update Key: {21, {01110100}}
+
+Update Key: {22, {01110101}}
+
+Update Key: {23, {01101100}}
+
+Update Key: {24, {01100001}}
+
+Update Key: {25, {01110100}}
+
+Update Key: {26, {01101001}}
+
+Update Key: {27, {01101111}}
+
+Update Key: {28, {01101110}}
+
+Update Key: {29, {01110011}}
+
+Update Key: {30, {00100001}}
+
+Update Key: {31, {00100001}}
+
+Update Key: {32, {00100001}}
+
+{0, {01111001}}
+{1, {01101111}}
+{2, {01110101}}
+{3, {01100110}}
+{4, {01101111}}
+{5, {01110101}}
+{6, {01101110}}
+{7, {01100100}}
+{8, {01110100}}
+{9, {01101000}}
+{10, {01100101}}
+{11, {01101011}}
+{12, {01100101}}
+{13, {01111001}}
+{14, {00100001}}
+{15, {01100011}}
+{16, {01101111}}
+{17, {01101110}}
+{18, {01100111}}
+{19, {01110010}}
+{20, {01100001}}
+{21, {01110100}}
+{22, {01110101}}
+{23, {01101100}}
+{24, {01100001}}
+{25, {01110100}}
+{26, {01101001}}
+{27, {01101111}}
+{28, {01101110}}
+{29, {01110011}}
+{30, {00100001}}
+{31, {00100001}}
+{32, {00100001}}
+Crib Scrub: 
+Ciphertext A: 001110000001100000010000000101010000000000011000000010110100010000011011000001100000000001001011000100010001000001001100000001100100111100011110000001100001011001000001000111010000011001001100000101100001101100011011000001000000011100011101010001100000000100000001
+Length of Ciphertext A: 264
+Ciphertext B: 001000000000111000001100010001100001100000010000010011100000011100010101000001100100010100000110000001000001001001000100010000110000100100011011000010010101001000001110000100100101010100100010000010000001111100000110000111000100111000011101010011100101011000000001
+Length of Ciphertext B: 264
+Word: 010101000110010101110011011101000110100101101110011001110010000001110100011001010111001101110100011010010110111001100111001000000110001101100001011011100010000001111001011011110111010100100000011100100110010101100001011001000010000001110100011010000110100101110011
+Length of Word: 264
+XOR of Ciphertexts: 000110000001011000011100010100110001100000001000010001010100001100001110000000000100010101001101000101010000001000001000010001010100011000000101000011110100010001001111000011110101001101101110000111100000010000011101000110000100100100000000000010000101011100000000
+Length of XOR of Ciphertexts: 264
+
+Crib Scrub: 
+bcX char: 00011000
+Word char: 01010100
+bXi: 01001100
+dec: 76
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010110
+Word char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011100
+Word char: 01110011
+bXi: 01101111
+dec: 111
+Valid: true
+
+Crib Scrub: 
+bcX char: 01010011
+Word char: 01110100
+bXi: 00100111
+dec: 39
+Valid: false
+
+Crib Scrub: 
+Valid: false
+
+
+0
+
+Update Key: Number of Fragments: 0
+
+{0, {01111001}}
+{1, {01101111}}
+{2, {01110101}}
+{3, {01100110}}
+{4, {01101111}}
+{5, {01110101}}
+{6, {01101110}}
+{7, {01100100}}
+{8, {01110100}}
+{9, {01101000}}
+{10, {01100101}}
+{11, {01101011}}
+{12, {01100101}}
+{13, {01111001}}
+{14, {00100001}}
+{15, {01100011}}
+{16, {01101111}}
+{17, {01101110}}
+{18, {01100111}}
+{19, {01110010}}
+{20, {01100001}}
+{21, {01110100}}
+{22, {01110101}}
+{23, {01101100}}
+{24, {01100001}}
+{25, {01110100}}
+{26, {01101001}}
+{27, {01101111}}
+{28, {01101110}}
+{29, {01110011}}
+{30, {00100001}}
+{31, {00100001}}
+{32, {00100001}}
+Crib Scrub: 
+Ciphertext A: 001100000100111100011101000010010001111100010000010011100000101000011011010010000001011000011111000100000001110101000100000011010001101101001110000001000001001100001111010101000000011100001001000000000001000001001001000110110000011000011010010100100000000100000001
+Length of Ciphertext A: 264
+Ciphertext B: 001011010000011100010100000100100100111100000010000000010001000100011000000011000100010100001001000000000101100101010000000101100000011000011010000000100101001000000100000110010001011100001101000100110000011000001000000111000001110100011010010011110100011000000001
+Length of Ciphertext B: 264
+Word: 010101000110010101110011011101000110100101101110011001110010000001110100011001010111001101110100011010010110111001100111001000000110001101100001011011100010000001111001011011110111010100100000011100100110010101100001011001000010000001110100011010000110100101110011
+Length of Word: 264
+XOR of Ciphertexts: 000111010100100000001001000110110101000000010010010011110001101100000011010001000101001100010110000100000100010000010100000110110001110101010100000001100100000100001011010011010001000000000100000100110001011001000001000001110001101100000000000111010100011100000000
+Length of XOR of Ciphertexts: 264
+
+Crib Scrub: 
+bcX char: 00011101
+Word char: 01010100
+bXi: 01001001
+dec: 73
+Valid: true
+
+Crib Scrub: 
+bcX char: 01001000
+Word char: 01100101
+bXi: 00101101
+dec: 45
+Valid: false
+
+Crib Scrub: 
+Valid: false
+
+
+0
+
+Update Key: Number of Fragments: 0
+
+{0, {01111001}}
+{1, {01101111}}
+{2, {01110101}}
+{3, {01100110}}
+{4, {01101111}}
+{5, {01110101}}
+{6, {01101110}}
+{7, {01100100}}
+{8, {01110100}}
+{9, {01101000}}
+{10, {01100101}}
+{11, {01101011}}
+{12, {01100101}}
+{13, {01111001}}
+{14, {00100001}}
+{15, {01100011}}
+{16, {01101111}}
+{17, {01101110}}
+{18, {01100111}}
+{19, {01110010}}
+{20, {01100001}}
+{21, {01110100}}
+{22, {01110101}}
+{23, {01101100}}
+{24, {01100001}}
+{25, {01110100}}
+{26, {01101001}}
+{27, {01101111}}
+{28, {01101110}}
+{29, {01110011}}
+{30, {00100001}}
+{31, {00100001}}
+{32, {00100001}}
+Crib Scrub: 
+Ciphertext A: 001101010001101000010110000011010000011000011001000101110100010000111011001111000011010101001011000011000000101000000001000100110000101000011100000000010001011100000010000000000001100100010101010000010000011100001100000011000001101100000001010001000000000100000001
+Length of Ciphertext A: 264
+Ciphertext B: 001111010000011000010001000010000001101101010101001000000000110100011111000001110001011001001011000101100001100001011000010000110001101100000110000000100000000000000100010101000000001000001101000100100101010000001000010011110000110100010010010101010100001001001001
+Length of Ciphertext B: 264
+Word: 010101000110010101110011011101000110100101101110011001110010000001110100011001010111001101110100011010010110111001100111001000000110001101100001011011100010000001111001011011110111010100100000011100100110010101100001011001000010000001110100011010000110100101110011
+Length of Word: 264
+XOR of Ciphertexts: 000010000001110000000111000001010001110101001100001101110100100100100100001110110010001100000000000110100001001001011001010100000001000100011010000000110001011100000110010101000001101100011000010100110101001100000100010000110001011000010011000100010100001101001000
+Length of XOR of Ciphertexts: 264
+
+Crib Scrub: 
+bcX char: 00001000
+Word char: 01010100
+bXi: 01011100
+dec: 92
+Valid: false
+
+Crib Scrub: 
+Valid: false
+
+
+0
+
+Update Key: Number of Fragments: 0
+
+{0, {01111001}}
+{1, {01101111}}
+{2, {01110101}}
+{3, {01100110}}
+{4, {01101111}}
+{5, {01110101}}
+{6, {01101110}}
+{7, {01100100}}
+{8, {01110100}}
+{9, {01101000}}
+{10, {01100101}}
+{11, {01101011}}
+{12, {01100101}}
+{13, {01111001}}
+{14, {00100001}}
+{15, {01100011}}
+{16, {01101111}}
+{17, {01101110}}
+{18, {01100111}}
+{19, {01110010}}
+{20, {01100001}}
+{21, {01110100}}
+{22, {01110101}}
+{23, {01101100}}
+{24, {01100001}}
+{25, {01110100}}
+{26, {01101001}}
+{27, {01101111}}
+{28, {01101110}}
+{29, {01110011}}
+{30, {00100001}}
+{31, {00100001}}
+{32, {00100001}}
+Crib Scrub: 
+Ciphertext A: 001101000000111000001100000001000000101001010101000011000001000100000000010010000010110001001011000000010001000001000101000011010001101101001110000101110001001100011000010101000001010000011000000101010001000100000111000110110000011100011100010011110000000100000001
+Length of Ciphertext A: 264
+Ciphertext B: 001011100000101001010101000101010000011100011010000110110000100000010000010010000001011100001110000001000001010101001101000110100100111100000010000011100000000100010101000100010001101101001100000101010001101101001001001000010000011100011000010011100101001000000001
+Length of Ciphertext B: 264
+Word: 010101000110010101110011011101000110100101101110011001110010000001110100011001010111001101110100011010010110111001100111001000000110001101100001011011100010000001111001011011110111010100100000011100100110010101100001011001000010000001110100011010000110100101110011
+Length of Word: 264
+XOR of Ciphertexts: 000110100000010001011001000100010000110101001111000101110001100100010000000000000011101101000101000001010000010100001000000101110101010001001100000110010001001000001101010001010000111101010100000000000000101001001110001110100000000000000100000000010101001100000000
+Length of XOR of Ciphertexts: 264
+
+Crib Scrub: 
+bcX char: 00011010
+Word char: 01010100
+bXi: 01001110
+dec: 78
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000100
+Word char: 01100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Crib Scrub: 
+bcX char: 01011001
+Word char: 01110011
+bXi: 00101010
+dec: 42
+Valid: false
+
+Crib Scrub: 
+Valid: false
+
+
+0
+
+Update Key: Number of Fragments: 0
+
+{0, {01111001}}
+{1, {01101111}}
+{2, {01110101}}
+{3, {01100110}}
+{4, {01101111}}
+{5, {01110101}}
+{6, {01101110}}
+{7, {01100100}}
+{8, {01110100}}
+{9, {01101000}}
+{10, {01100101}}
+{11, {01101011}}
+{12, {01100101}}
+{13, {01111001}}
+{14, {00100001}}
+{15, {01100011}}
+{16, {01101111}}
+{17, {01101110}}
+{18, {01100111}}
+{19, {01110010}}
+{20, {01100001}}
+{21, {01110100}}
+{22, {01110101}}
+{23, {01101100}}
+{24, {01100001}}
+{25, {01110100}}
+{26, {01101001}}
+{27, {01101111}}
+{28, {01101110}}
+{29, {01110011}}
+{30, {00100001}}
+{31, {00100001}}
+{32, {00100001}}
+Crib Scrub: 
+Ciphertext A: 001101110000111000011101010001100001100000010000010011100000010100000110000011010100010100001111000010100001000001001111000001000100111100001000000011100001110000000100010101000000001000000101000101010001110000000110000110100001101001010011010010010100100001001100
+Length of Ciphertext A: 264
+Ciphertext B: 001011010000101000000110000100100000011000011011000010010100010000000000000011010001011000011111000011000001011101000110010000110000110000001111000010010101001000011000000110110000000001001100000100110001000100001000000010110100111000000111010010010100100001010010
+Length of Ciphertext B: 264
+Word: 010101000110010101110011011101000110100101101110011001110010000001110100011001010111001101110100011010010110111001100111001000000110001101100001011011100010000001111001011011110111010100100000011100100110010101100001011001000010000001110100011010000110100101110011
+Length of Word: 264
+XOR of Ciphertexts: 000110100000010000011011010101000001111000001011010001110100000100000110000000000101001100010000000001100000011100001001010001110100001100000111000001110100111000011100010011110000001001001001000001100000110100001110000100010101010001010100000000000000000000011110
+Length of XOR of Ciphertexts: 264
+
+Crib Scrub: 
+bcX char: 00011010
+Word char: 01010100
+bXi: 01001110
+dec: 78
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000100
+Word char: 01100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011011
+Word char: 01110011
+bXi: 01101000
+dec: 104
+Valid: true
+
+Crib Scrub: 
+bcX char: 01010100
+Word char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011110
+Word char: 01101001
+bXi: 01110111
+dec: 119
+Valid: true
+
+Crib Scrub: 
+bcX char: 00001011
+Word char: 01101110
+bXi: 01100101
+dec: 101
+Valid: true
+
+Crib Scrub: 
+bcX char: 01000111
+Word char: 01100111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 01000001
+Word char: 00100000
+bXi: 01100001
+dec: 97
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000110
+Word char: 01110100
+bXi: 01110010
+dec: 114
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000000
+Word char: 01100101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Crib Scrub: 
+bcX char: 01010011
+Word char: 01110011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010000
+Word char: 01110100
+bXi: 01100100
+dec: 100
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000110
+Word char: 01101001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000111
+Word char: 01101110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Crib Scrub: 
+bcX char: 00001001
+Word char: 01100111
+bXi: 01101110
+dec: 110
+Valid: true
+
+Crib Scrub: 
+bcX char: 01000111
+Word char: 00100000
+bXi: 01100111
+dec: 103
+Valid: true
+
+Crib Scrub: 
+bcX char: 01000011
+Word char: 01100011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000111
+Word char: 01100001
+bXi: 01100110
+dec: 102
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000111
+Word char: 01101110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Crib Scrub: 
+bcX char: 01001110
+Word char: 00100000
+bXi: 01101110
+dec: 110
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011100
+Word char: 01111001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Crib Scrub: 
+bcX char: 01001111
+Word char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000010
+Word char: 01110101
+bXi: 01110111
+dec: 119
+Valid: true
+
+Crib Scrub: 
+bcX char: 01001001
+Word char: 00100000
+bXi: 01101001
+dec: 105
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000110
+Word char: 01110010
+bXi: 01110100
+dec: 116
+Valid: true
+
+Crib Scrub: 
+bcX char: 00001101
+Word char: 01100101
+bXi: 01101000
+dec: 104
+Valid: true
+
+Crib Scrub: 
+bcX char: 00001110
+Word char: 01100001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Crib Scrub: 
+bcX char: 00010001
+Word char: 01100100
+bXi: 01110101
+dec: 117
+Valid: true
+
+Crib Scrub: 
+bcX char: 01010100
+Word char: 00100000
+bXi: 01110100
+dec: 116
+Valid: true
+
+Crib Scrub: 
+bcX char: 01010100
+Word char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000000
+Word char: 01101000
+bXi: 01101000
+dec: 104
+Valid: true
+
+Crib Scrub: 
+bcX char: 00000000
+Word char: 01101001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Crib Scrub: 
+bcX char: 00011110
+Word char: 01110011
+bXi: 01101101
+dec: 109
+Valid: true
+
+Crib Scrub: 
+Valid: true
+
+Valid Key Check:
+key: 011000110110101101101110001100100111000101111110001010010010010101110010011010000011011001111011011000110111111000101000001001000010110001101001011000000011110001111101001110110111011100100101011001110111100101100111011111100011101000100111001000010010000100111111
+start: 0
+end: 264
+
+Valid Key Check:
+ctr: 0
+bc char: 00101101
+Key char: 01100011
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001010
+Key char: 01101011
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000110
+Key char: 01101110
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010010
+Key char: 00110010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000110
+Key char: 01110001
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011011
+Key char: 01111110
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001001
+Key char: 00101001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000100
+Key char: 00100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000000
+Key char: 01110010
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001101
+Key char: 01101000
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010110
+Key char: 00110110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011111
+Key char: 01111011
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001100
+Key char: 01100011
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010111
+Key char: 01111110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000110
+Key char: 00101000
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000011
+Key char: 00100100
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001100
+Key char: 00101100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001111
+Key char: 01101001
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001001
+Key char: 01100000
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01010010
+Key char: 00111100
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011000
+Key char: 01111101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011011
+Key char: 00111011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000000
+Key char: 01110111
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001100
+Key char: 00100101
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010011
+Key char: 01100111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010001
+Key char: 01111001
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001000
+Key char: 01100111
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001011
+Key char: 01111110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001110
+Key char: 00111010
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000111
+Key char: 00100111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001001
+Key char: 00100001
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001000
+Key char: 00100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01010010
+Key char: 00111111
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00100000
+Key char: 01100011
+bXi: 01000011
+dec: 67
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001010
+Key char: 01101011
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01101110
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000110
+Key char: 00110010
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00100110
+Key char: 01110001
+bXi: 01010111
+dec: 87
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01010101
+Key char: 01111110
+bXi: 00101011
+dec: 43
+Valid: false
+
+Valid Key Check:
+key: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001
+start: 0
+end: 264
+
+Valid Key Check:
+ctr: 0
+bc char: 00101101
+Key char: 01111001
+bXi: 01010100
+dec: 84
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000110
+Key char: 01110101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010010
+Key char: 01100110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000110
+Key char: 01101111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011011
+Key char: 01110101
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001001
+Key char: 01101110
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000100
+Key char: 01100100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000000
+Key char: 01110100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001101
+Key char: 01101000
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010110
+Key char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011111
+Key char: 01101011
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001100
+Key char: 01100101
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010111
+Key char: 01111001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000110
+Key char: 00100001
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01000011
+Key char: 01100011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001100
+Key char: 01101111
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001111
+Key char: 01101110
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001001
+Key char: 01100111
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01010010
+Key char: 01110010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011000
+Key char: 01100001
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000000
+Key char: 01110101
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001100
+Key char: 01101100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010011
+Key char: 01100001
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00010001
+Key char: 01110100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001000
+Key char: 01101001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00001011
+Key char: 01101111
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 00000111
+Key char: 01110011
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001001
+Key char: 00100001
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01001000
+Key char: 00100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 0
+bc char: 01010010
+Key char: 00100001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00100000
+Key char: 01111001
+bXi: 01011001
+dec: 89
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01110101
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000110
+Key char: 01100110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00100110
+Key char: 01101111
+bXi: 01001001
+dec: 73
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001101
+Key char: 01101110
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01100100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011010
+Key char: 01110100
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001000
+Key char: 01101000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010111
+Key char: 01100101
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001110
+Key char: 01101011
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000100
+Key char: 01100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011101
+Key char: 01111001
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011010
+Key char: 01100011
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000000
+Key char: 01101111
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00011011
+Key char: 01101110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000111
+Key char: 01100111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000010
+Key char: 01110010
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000100
+Key char: 01100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000110
+Key char: 01110100
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010011
+Key char: 01110101
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00001001
+Key char: 01101100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000010
+Key char: 01100001
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000000
+Key char: 01110100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00000101
+Key char: 01101001
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010110
+Key char: 01101111
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 00010101
+Key char: 01110011
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001000
+Key char: 00100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01001111
+Key char: 00100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 1
+bc char: 01000100
+Key char: 00100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00111000
+Key char: 01111001
+bXi: 01000001
+dec: 65
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011000
+Key char: 01101111
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010000
+Key char: 01110101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010101
+Key char: 01100110
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000000
+Key char: 01101111
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011000
+Key char: 01110101
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00001011
+Key char: 01101110
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01000100
+Key char: 01100100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000110
+Key char: 01101000
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000000
+Key char: 01100101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01001011
+Key char: 01101011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010001
+Key char: 01100101
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010000
+Key char: 01111001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01001100
+Key char: 00100001
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000110
+Key char: 01100011
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011110
+Key char: 01101110
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000110
+Key char: 01100111
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010110
+Key char: 01110010
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01000001
+Key char: 01100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011101
+Key char: 01110100
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000110
+Key char: 01110101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01001100
+Key char: 01101100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00010110
+Key char: 01100001
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011011
+Key char: 01101001
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000100
+Key char: 01101111
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000111
+Key char: 01101110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00011101
+Key char: 01110011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 01000110
+Key char: 00100001
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 2
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00100000
+Key char: 01111001
+bXi: 01011001
+dec: 89
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001110
+Key char: 01101111
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001100
+Key char: 01110101
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01000110
+Key char: 01100110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011000
+Key char: 01101111
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00010000
+Key char: 01110101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000111
+Key char: 01100100
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00010101
+Key char: 01110100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000110
+Key char: 01101000
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01000101
+Key char: 01100101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000110
+Key char: 01101011
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000100
+Key char: 01100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00010010
+Key char: 01111001
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01000100
+Key char: 00100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01000011
+Key char: 01100011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001001
+Key char: 01101111
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011011
+Key char: 01101110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001001
+Key char: 01100111
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01010010
+Key char: 01110010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001110
+Key char: 01100001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00010010
+Key char: 01110100
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00100010
+Key char: 01101100
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00001000
+Key char: 01100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011111
+Key char: 01110100
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000110
+Key char: 01101001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011100
+Key char: 01101111
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00011101
+Key char: 01110011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01001110
+Key char: 00100001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 01010110
+Key char: 00100001
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 3
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00110000
+Key char: 01111001
+bXi: 01001001
+dec: 73
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011101
+Key char: 01110101
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001001
+Key char: 01100110
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011111
+Key char: 01101111
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010000
+Key char: 01110101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001010
+Key char: 01100100
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001000
+Key char: 01101000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010110
+Key char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011111
+Key char: 01101011
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010000
+Key char: 01100101
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011101
+Key char: 01111001
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01000100
+Key char: 00100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001101
+Key char: 01100011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000100
+Key char: 01100111
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010011
+Key char: 01110010
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001111
+Key char: 01100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000111
+Key char: 01110101
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00001001
+Key char: 01101100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000000
+Key char: 01100001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00010000
+Key char: 01110100
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01001001
+Key char: 01101001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000110
+Key char: 01101110
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00011010
+Key char: 01110011
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 01010010
+Key char: 00100001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 4
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00101101
+Key char: 01111001
+bXi: 01010100
+dec: 84
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000111
+Key char: 01101111
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010100
+Key char: 01110101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010010
+Key char: 01100110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000010
+Key char: 01110101
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000001
+Key char: 01101110
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010001
+Key char: 01100100
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011000
+Key char: 01110100
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00001100
+Key char: 01101000
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01000101
+Key char: 01100101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00001001
+Key char: 01101011
+bXi: 01100010
+dec: 98
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000000
+Key char: 01100101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01011001
+Key char: 01111001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01010000
+Key char: 00100001
+bXi: 01110001
+dec: 113
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010110
+Key char: 01100011
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000110
+Key char: 01101111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011010
+Key char: 01101110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000010
+Key char: 01100111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01010010
+Key char: 01110010
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000100
+Key char: 01100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011001
+Key char: 01110100
+bXi: 01101101
+dec: 109
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010111
+Key char: 01110101
+bXi: 01100010
+dec: 98
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00001101
+Key char: 01101100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00010011
+Key char: 01100001
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000110
+Key char: 01110100
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00001000
+Key char: 01101001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011100
+Key char: 01101111
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011101
+Key char: 01101110
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00011010
+Key char: 01110011
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01001111
+Key char: 00100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 01000110
+Key char: 00100001
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 5
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00110101
+Key char: 01111001
+bXi: 01001100
+dec: 76
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011010
+Key char: 01101111
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010110
+Key char: 01110101
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001101
+Key char: 01100110
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000110
+Key char: 01101111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011001
+Key char: 01110101
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010111
+Key char: 01101110
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 01000100
+Key char: 01100100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00111011
+Key char: 01110100
+bXi: 01001111
+dec: 79
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00111100
+Key char: 01101000
+bXi: 01010100
+dec: 84
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00110101
+Key char: 01100101
+bXi: 01010000
+dec: 80
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 01001011
+Key char: 01101011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001100
+Key char: 01100101
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001010
+Key char: 01111001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010011
+Key char: 01100011
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011100
+Key char: 01101110
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 01100111
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010111
+Key char: 01110010
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000010
+Key char: 01100001
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000000
+Key char: 01110100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011001
+Key char: 01110101
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00010101
+Key char: 01101100
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 01000001
+Key char: 01100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000111
+Key char: 01110100
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001100
+Key char: 01101001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00001100
+Key char: 01101111
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00011011
+Key char: 01101110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 01110011
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 01000100
+Key char: 00100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 6
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00111101
+Key char: 01111001
+bXi: 01000100
+dec: 68
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000110
+Key char: 01101111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010001
+Key char: 01110101
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001000
+Key char: 01100110
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00100000
+Key char: 01101110
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001101
+Key char: 01100100
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00011111
+Key char: 01110100
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000111
+Key char: 01101000
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010110
+Key char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01001011
+Key char: 01101011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010110
+Key char: 01100101
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00011000
+Key char: 01111001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01011000
+Key char: 00100001
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01000011
+Key char: 01100011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000110
+Key char: 01101110
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000010
+Key char: 01100111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000000
+Key char: 01110010
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000100
+Key char: 01100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00000010
+Key char: 01110101
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001101
+Key char: 01101100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010010
+Key char: 01100001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001000
+Key char: 01101001
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00001101
+Key char: 01101110
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 00010010
+Key char: 01110011
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01010101
+Key char: 00100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01000010
+Key char: 00100001
+bXi: 01100011
+dec: 99
+Valid: true
+
+Valid Key Check:
+ctr: 7
+bc char: 01001001
+Key char: 00100001
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00110100
+Key char: 01111001
+bXi: 01001101
+dec: 77
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001110
+Key char: 01101111
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001100
+Key char: 01110101
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000100
+Key char: 01100110
+bXi: 01100010
+dec: 98
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001100
+Key char: 01101110
+bXi: 01100010
+dec: 98
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010001
+Key char: 01100100
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000000
+Key char: 01110100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01001000
+Key char: 01101000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00101100
+Key char: 01100101
+bXi: 01001001
+dec: 73
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01001011
+Key char: 01101011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000001
+Key char: 01100101
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010000
+Key char: 01111001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01000101
+Key char: 00100001
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00001101
+Key char: 01100011
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010111
+Key char: 01100111
+bXi: 01110000
+dec: 112
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010011
+Key char: 01110010
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011000
+Key char: 01100001
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010100
+Key char: 01110101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011000
+Key char: 01101100
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00010001
+Key char: 01110100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000111
+Key char: 01101001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011011
+Key char: 01101111
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000111
+Key char: 01101110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00011100
+Key char: 01110011
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 01001111
+Key char: 00100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 8
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00101110
+Key char: 01111001
+bXi: 01010111
+dec: 87
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00001010
+Key char: 01101111
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01010101
+Key char: 01110101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010101
+Key char: 01100110
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000111
+Key char: 01101111
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011010
+Key char: 01110101
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011011
+Key char: 01101110
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00001000
+Key char: 01100100
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010000
+Key char: 01110100
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001000
+Key char: 01101000
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010111
+Key char: 01100101
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00001110
+Key char: 01101011
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000100
+Key char: 01100101
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010101
+Key char: 01111001
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001101
+Key char: 00100001
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011010
+Key char: 01100011
+bXi: 01111001
+dec: 121
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000010
+Key char: 01101110
+bXi: 01101100
+dec: 108
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00001110
+Key char: 01100111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000001
+Key char: 01110010
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010001
+Key char: 01110100
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011011
+Key char: 01110101
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001100
+Key char: 01101100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011011
+Key char: 01110100
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001001
+Key char: 01101001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00100001
+Key char: 01101111
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000111
+Key char: 01101110
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00011000
+Key char: 01110011
+bXi: 01101011
+dec: 107
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01001110
+Key char: 00100001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 01010010
+Key char: 00100001
+bXi: 01110011
+dec: 115
+Valid: true
+
+Valid Key Check:
+ctr: 9
+bc char: 00000001
+Key char: 00100001
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00110111
+Key char: 01111001
+bXi: 01001110
+dec: 78
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001110
+Key char: 01101111
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011101
+Key char: 01110101
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01000110
+Key char: 01100110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011000
+Key char: 01101111
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00010000
+Key char: 01110101
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001110
+Key char: 01101110
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000101
+Key char: 01100100
+bXi: 01100001
+dec: 97
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000110
+Key char: 01110100
+bXi: 01110010
+dec: 114
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001101
+Key char: 01101000
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01000101
+Key char: 01100101
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001111
+Key char: 01101011
+bXi: 01100100
+dec: 100
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001010
+Key char: 01100101
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00010000
+Key char: 01111001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001111
+Key char: 00100001
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000100
+Key char: 01100011
+bXi: 01100111
+dec: 103
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001111
+Key char: 01101111
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001000
+Key char: 01101110
+bXi: 01100110
+dec: 102
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00001110
+Key char: 01100111
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011100
+Key char: 01110010
+bXi: 01101110
+dec: 110
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000100
+Key char: 01100001
+bXi: 01100101
+dec: 101
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01010100
+Key char: 01110100
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000010
+Key char: 01110101
+bXi: 01110111
+dec: 119
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000101
+Key char: 01101100
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00010101
+Key char: 01100001
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011100
+Key char: 01110100
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00000110
+Key char: 01101001
+bXi: 01101111
+dec: 111
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011010
+Key char: 01101111
+bXi: 01110101
+dec: 117
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 00011010
+Key char: 01101110
+bXi: 01110100
+dec: 116
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01010011
+Key char: 01110011
+bXi: 00100000
+dec: 32
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001001
+Key char: 00100001
+bXi: 01101000
+dec: 104
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001000
+Key char: 00100001
+bXi: 01101001
+dec: 105
+Valid: true
+
+Valid Key Check:
+ctr: 10
+bc char: 01001100
+Key char: 00100001
+bXi: 01101101
+dec: 109
+Valid: true
+
+Crib Scrub: {0, 264, 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001}
+
+
+1
+{0, 264, 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001}
+
+Update Key: Number of Fragments: 1
+
+Update Key: 
+Fragment #: 1
+Start: 0
+End: 33
+Key Fragment: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001
+
+Update Key: {0, {01111001}}
+
+Update Key: {1, {01101111}}
+
+Update Key: {2, {01110101}}
+
+Update Key: {3, {01100110}}
+
+Update Key: {4, {01101111}}
+
+Update Key: {5, {01110101}}
+
+Update Key: {6, {01101110}}
+
+Update Key: {7, {01100100}}
+
+Update Key: {8, {01110100}}
+
+Update Key: {9, {01101000}}
+
+Update Key: {10, {01100101}}
+
+Update Key: {11, {01101011}}
+
+Update Key: {12, {01100101}}
+
+Update Key: {13, {01111001}}
+
+Update Key: {14, {00100001}}
+
+Update Key: {15, {01100011}}
+
+Update Key: {16, {01101111}}
+
+Update Key: {17, {01101110}}
+
+Update Key: {18, {01100111}}
+
+Update Key: {19, {01110010}}
+
+Update Key: {20, {01100001}}
+
+Update Key: {21, {01110100}}
+
+Update Key: {22, {01110101}}
+
+Update Key: {23, {01101100}}
+
+Update Key: {24, {01100001}}
+
+Update Key: {25, {01110100}}
+
+Update Key: {26, {01101001}}
+
+Update Key: {27, {01101111}}
+
+Update Key: {28, {01101110}}
+
+Update Key: {29, {01110011}}
+
+Update Key: {30, {00100001}}
+
+Update Key: {31, {00100001}}
+
+Update Key: {32, {00100001}}
+
+{0, {01111001}}
+{1, {01101111}}
+{2, {01110101}}
+{3, {01100110}}
+{4, {01101111}}
+{5, {01110101}}
+{6, {01101110}}
+{7, {01100100}}
+{8, {01110100}}
+{9, {01101000}}
+{10, {01100101}}
+{11, {01101011}}
+{12, {01100101}}
+{13, {01111001}}
+{14, {00100001}}
+{15, {01100011}}
+{16, {01101111}}
+{17, {01101110}}
+{18, {01100111}}
+{19, {01110010}}
+{20, {01100001}}
+{21, {01110100}}
+{22, {01110101}}
+{23, {01101100}}
+{24, {01100001}}
+{25, {01110100}}
+{26, {01101001}}
+{27, {01101111}}
+{28, {01101110}}
+{29, {01110011}}
+{30, {00100001}}
+{31, {00100001}}
+{32, {00100001}}
+{0, {01111001}}
+{1, {01101111}}
+{2, {01110101}}
+{3, {01100110}}
+{4, {01101111}}
+{5, {01110101}}
+{6, {01101110}}
+{7, {01100100}}
+{8, {01110100}}
+{9, {01101000}}
+{10, {01100101}}
+{11, {01101011}}
+{12, {01100101}}
+{13, {01111001}}
+{14, {00100001}}
+{15, {01100011}}
+{16, {01101111}}
+{17, {01101110}}
+{18, {01100111}}
+{19, {01110010}}
+{20, {01100001}}
+{21, {01110100}}
+{22, {01110101}}
+{23, {01101100}}
+{24, {01100001}}
+{25, {01110100}}
+{26, {01101001}}
+{27, {01101111}}
+{28, {01101110}}
+{29, {01110011}}
+{30, {00100001}}
+{31, {00100001}}
+{32, {00100001}}
+List Lengths: 
+{0, 1}
+{1, 1}
+{2, 1}
+{3, 1}
+{4, 1}
+{5, 1}
+{6, 1}
+{7, 1}
+{8, 1}
+{9, 1}
+{10, 1}
+{11, 1}
+{12, 1}
+{13, 1}
+{14, 1}
+{15, 1}
+{16, 1}
+{17, 1}
+{18, 1}
+{19, 1}
+{20, 1}
+{21, 1}
+{22, 1}
+{23, 1}
+{24, 1}
+{25, 1}
+{26, 1}
+{27, 1}
+{28, 1}
+{29, 1}
+{30, 1}
+{31, 1}
+{32, 1}
+Total Keys: 0
+Get All Keys Recursion: 
+Depth: 0
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 0
+Iteration: 0
+Key In Progress: 
+Key Length: 0
+
+Get All Keys Recursion: 
+Depth: 1
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 1
+Iteration: 0
+Key In Progress: 01111001
+Key Length: 8
+
+Get All Keys Recursion: 
+Depth: 2
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 2
+Iteration: 0
+Key In Progress: 0111100101101111
+Key Length: 16
+
+Get All Keys Recursion: 
+Depth: 3
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 3
+Iteration: 0
+Key In Progress: 011110010110111101110101
+Key Length: 24
+
+Get All Keys Recursion: 
+Depth: 4
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 4
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110
+Key Length: 32
+
+Get All Keys Recursion: 
+Depth: 5
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 5
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111
+Key Length: 40
+
+Get All Keys Recursion: 
+Depth: 6
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 6
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101
+Key Length: 48
+
+Get All Keys Recursion: 
+Depth: 7
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 7
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110
+Key Length: 56
+
+Get All Keys Recursion: 
+Depth: 8
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 8
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100
+Key Length: 64
+
+Get All Keys Recursion: 
+Depth: 9
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 9
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101011011100110010001110100
+Key Length: 72
+
+Get All Keys Recursion: 
+Depth: 10
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 10
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110011001000111010001101000
+Key Length: 80
+
+Get All Keys Recursion: 
+Depth: 11
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 11
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100011101000110100001100101
+Key Length: 88
+
+Get All Keys Recursion: 
+Depth: 12
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 12
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011
+Key Length: 96
+
+Get All Keys Recursion: 
+Depth: 13
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 13
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110011001000111010001101000011001010110101101100101
+Key Length: 104
+
+Get All Keys Recursion: 
+Depth: 14
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 14
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100011101000110100001100101011010110110010101111001
+Key Length: 112
+
+Get All Keys Recursion: 
+Depth: 15
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 15
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001
+Key Length: 120
+
+Get All Keys Recursion: 
+Depth: 16
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 16
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110011001000111010001101000011001010110101101100101011110010010000101100011
+Key Length: 128
+
+Get All Keys Recursion: 
+Depth: 17
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 17
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100011101000110100001100101011010110110010101111001001000010110001101101111
+Key Length: 136
+
+Get All Keys Recursion: 
+Depth: 18
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 18
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110
+Key Length: 144
+
+Get All Keys Recursion: 
+Depth: 19
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 19
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110011001000111010001101000011001010110101101100101011110010010000101100011011011110110111001100111
+Key Length: 152
+
+Get All Keys Recursion: 
+Depth: 20
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 20
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100011101000110100001100101011010110110010101111001001000010110001101101111011011100110011101110010
+Key Length: 160
+
+Get All Keys Recursion: 
+Depth: 21
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 21
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001
+Key Length: 168
+
+Get All Keys Recursion: 
+Depth: 22
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 22
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110011001000111010001101000011001010110101101100101011110010010000101100011011011110110111001100111011100100110000101110100
+Key Length: 176
+
+Get All Keys Recursion: 
+Depth: 23
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 23
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100011101000110100001100101011010110110010101111001001000010110001101101111011011100110011101110010011000010111010001110101
+Key Length: 184
+
+Get All Keys Recursion: 
+Depth: 24
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 24
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100
+Key Length: 192
+
+Get All Keys Recursion: 
+Depth: 25
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 25
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110011001000111010001101000011001010110101101100101011110010010000101100011011011110110111001100111011100100110000101110100011101010110110001100001
+Key Length: 200
+
+Get All Keys Recursion: 
+Depth: 26
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 26
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100011101000110100001100101011010110110010101111001001000010110001101101111011011100110011101110010011000010111010001110101011011000110000101110100
+Key Length: 208
+
+Get All Keys Recursion: 
+Depth: 27
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 27
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001
+Key Length: 216
+
+Get All Keys Recursion: 
+Depth: 28
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 28
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110011001000111010001101000011001010110101101100101011110010010000101100011011011110110111001100111011100100110000101110100011101010110110001100001011101000110100101101111
+Key Length: 224
+
+Get All Keys Recursion: 
+Depth: 29
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 29
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100011101000110100001100101011010110110010101111001001000010110001101101111011011100110011101110010011000010111010001110101011011000110000101110100011010010110111101101110
+Key Length: 232
+
+Get All Keys Recursion: 
+Depth: 30
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 30
+Iteration: 0
+Key In Progress: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011
+Key Length: 240
+
+Get All Keys Recursion: 
+Depth: 31
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 31
+Iteration: 0
+Key In Progress: 01111001011011110111010101100110011011110111010101101110011001000111010001101000011001010110101101100101011110010010000101100011011011110110111001100111011100100110000101110100011101010110110001100001011101000110100101101111011011100111001100100001
+Key Length: 248
+
+Get All Keys Recursion: 
+Depth: 32
+Get All Keys Recursion: 
+Building Keys: 
+Depth: 32
+Iteration: 0
+Key In Progress: 0111100101101111011101010110011001101111011101010110111001100100011101000110100001100101011010110110010101111001001000010110001101101111011011100110011101110010011000010111010001110101011011000110000101110100011010010110111101101110011100110010000100100001
+Key Length: 256
+
+Get All Keys Recursion: 
+Depth: 33
+Added Key: 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001
+Key Length: 264
+Keys Added: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get All Keys: 
+Expected Value: 0
+Actual Value: 1
+Decrypt All: 
+
+
+Message #: 1
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010101000110010101110011011101000110100101101110011001110010000001110100011001010111001101110100011010010110111001100111001000000110001101100001011011100010000001111001011011110111010100100000011100100110010101100001011001000010000001110100011010000110100101110011
+Plaintext: Testing testing can you read this
+
+
+
+Message #: 2
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010110010110010101110000001000000100100100100000011000110110000101101110001000000111001001100101011000010110010000100000011110010110111101110101001000000111000001100101011100100110011001100101011000110111010001101100011110010010000001100110011010010110111001100101
+Plaintext: Yep I can read you perfectly fine
+
+
+
+Message #: 3
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010000010111011101100101011100110110111101101101011001010010000001101111011011100110010100100000011101000110100101101101011001010010000001110000011000010110010000100000011010010111001100100000011101110110111101110010011010110110100101101110011001110010000000100000
+Plaintext: Awesome one time pad is working  
+
+
+
+Message #: 4
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010110010110000101111001001000000111011101100101001000000110001101100001011011100010000001101101011000010110101101100101001000000110011001110101011011100010000001101111011001100010000001001110011010010110101101101111011100110010000001101110011011110111011100100000
+Plaintext: Yay we can make fun of Nikos now 
+
+
+
+Message #: 5
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010010010010000001101000011011110111000001100101001000000110111001101111001000000111001101110100011101010110010001100101011011100111010000100000011000110110000101101110001000000111001001100101011000010110010000100000011101000110100001101001011100110010000000100000
+Plaintext: I hope no student can read this  
+
+
+
+Message #: 6
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010101000110100001100001011101000010000001110111011011110111010101101100011001000010000001100010011001010010000001110001011101010110100101110100011001010010000001100101011011010110001001100001011100100111001001100001011100110111001101101001011011100110011100100000
+Plaintext: That would be quite embarrassing 
+
+
+
+Message #: 7
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010011000111010101100011011010110110100101101100011110010010000001001111010101000101000000100000011010010111001100100000011100000110010101110010011001100110010101100011011101000110110001111001001000000111001101100101011000110111010101110010011001010010000000100000
+Plaintext: Luckily OTP is perfectly secure  
+
+
+
+Message #: 8
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010001000110100101100100011011100111010000100000010011100110100101101011011011110111001100100000011100110110000101111001001000000111010001101000011001010111001001100101001000000111011101100001011100110010000001100001001000000110001101100001011101000110001101101000
+Plaintext: Didnt Nikos say there was a catch
+
+
+
+Message #: 9
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010011010110000101111001011000100110010100100000011000100111010101110100001000000100100100100000011001000110100101100100011011100111010000100000011100000110000101111001001000000110000101110100011101000110010101101110011101000110100101101111011011100010000000100000
+Plaintext: Maybe but I didnt pay attention  
+
+
+
+Message #: 10
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010101110110010100100000011100110110100001101111011101010110110001100100001000000111001001100101011000010110110001101100011110010010000001101100011010010111001101110100011001010110111000100000011101000110111100100000010011100110100101101011011011110111001100100000
+Plaintext: We should really listen to Nikos 
+
+
+
+Message #: 11
+Key: 
+0: 01111001
+1: 01101111
+2: 01110101
+3: 01100110
+4: 01101111
+5: 01110101
+6: 01101110
+7: 01100100
+8: 01110100
+9: 01101000
+10: 01100101
+11: 01101011
+12: 01100101
+13: 01111001
+14: 00100001
+15: 01100011
+16: 01101111
+17: 01101110
+18: 01100111
+19: 01110010
+20: 01100001
+21: 01110100
+22: 01110101
+23: 01101100
+24: 01100001
+25: 01110100
+26: 01101001
+27: 01101111
+28: 01101110
+29: 01110011
+30: 00100001
+31: 00100001
+32: 00100001
+Plaintext (bin): 010011100110000101101000001000000111011101100101001000000110000101110010011001010010000001100100011011110110100101101110011001110010000001100110011010010110111001100101001000000111011101101001011101000110100001101111011101010111010000100000011010000110100101101101
+Plaintext: Nah we are doing fine without him
+
+
+Key (bin): 011110010110111101110101011001100110111101110101011011100110010001110100011010000110010101101011011001010111100100100001011000110110111101101110011001110111001001100001011101000111010101101100011000010111010001101001011011110110111001110011001000010010000100100001
+Key (chars): youfoundthekey!congratulations!!!

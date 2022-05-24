@@ -1,0 +1,164 @@
+/*
+Name: Christian Bautista
+CWID: 10450958
+*/
+
+-- Query 1
+
+WITH combos as (
+SELECT cust as customer, prod as product, month, state
+FROM sales
+GROUP BY customer, product, month, state
+ORDER BY customer, product, month, state 
+), allsame as (
+SELECT customer, product, c.month, c.state, avg(quant) as cust_avg
+FROM combos as c, sales as s
+WHERE c.customer = s.cust and c.product = s.prod and c.month = s.month and c.state = s.state
+GROUP BY customer, product, c.month, c.state
+ORDER BY customer, product, c.month, c.state
+), otherprod as (
+SELECT customer, product, c.month, c.state, avg(quant) as other_prod_avg
+FROM combos as c, sales as s
+WHERE c.customer = s.cust and c.product != s.prod and c.month = s.month and c.state = s.state
+GROUP BY customer, product, c.month, c.state
+ORDER BY customer, product, c.month, c.state
+), othermonth as (
+SELECT customer, product, c.month, c.state, avg(quant) as other_month_avg
+FROM combos as c, sales as s
+WHERE c.customer = s.cust and c.product = s.prod and c.month != s.month and c.state = s.state
+GROUP BY customer, product, c.month, c.state
+ORDER BY customer, product, c.month, c.state
+), otherstate as (
+SELECT customer, product, c.month, c.state, avg(quant) as other_state_avg
+FROM combos as c, sales as s
+WHERE c.customer = s.cust and c.product = s.prod and c.month = s.month and c.state != s.state
+GROUP BY customer, product, c.month, c.state
+ORDER BY customer, product, c.month, c.state
+)
+SELECT combos.customer, combos.product, combos.month, combos.state, cust_avg, other_prod_avg, other_month_avg, other_state_avg
+FROM (((combos left outer join allsame on (combos.customer = allsame.customer and combos.product = allsame.product and combos.month = allsame.month and combos.state = allsame.state)) 
+left outer join otherprod on (combos.customer = otherprod.customer and combos.product = otherprod.product and combos.month = otherprod.month and combos.state = otherprod.state)) 
+left outer join othermonth on (combos.customer = othermonth.customer and combos.product = othermonth.product and combos.month = othermonth.month and combos.state = othermonth.state)) 
+left outer join otherstate on (combos.customer = otherstate.customer and combos.product = otherstate.product and combos.month = otherstate.month and combos.state = otherstate.state)
+ORDER BY combos.customer, combos.product, combos.month, combos.state
+
+
+-- Query 2
+
+WITH combos as (
+SELECT cust as customer, prod as product, state
+FROM sales
+GROUP BY customer, product, state
+ORDER BY customer, product, state
+), q1initial as (
+SELECT cust as customer, prod as product, state, 1 as q, avg(quant) as avg_quant
+FROM sales
+WHERE month between 1 and 3
+GROUP BY customer, product, state
+ORDER BY customer, product, state
+), q2initial as (
+SELECT cust as customer, prod as product, state, 2 as q, avg(quant) as avg_quant
+FROM sales
+WHERE month between 4 and 6
+GROUP BY customer, product, state
+ORDER BY customer, product, state
+), q3initial as (
+SELECT cust as customer, prod as product, state, 3 as q, avg(quant) as avg_quant
+FROM sales
+WHERE month between 7 and 9
+GROUP BY customer, product, state
+ORDER BY customer, product, state
+), q4initial as (
+SELECT cust as customer, prod as product, state, 4 as q, avg(quant) as avg_quant
+FROM sales
+WHERE month between 10 and 12
+GROUP BY customer, product, state
+ORDER BY customer, product, state
+), q1 as (
+SELECT combos.customer, combos.product, combos.state, q, avg_quant
+FROM combos left join q1initial on (combos.customer = q1initial.customer and combos.product = q1initial.product and combos.state = q1initial.state)
+), q2 as (
+SELECT combos.customer, combos.product, combos.state, q, avg_quant
+FROM combos left join q2initial on (combos.customer = q2initial.customer and combos.product = q2initial.product and combos.state = q2initial.state)
+), q3 as (
+SELECT combos.customer, combos.product, combos.state, q, avg_quant
+FROM combos left join q3initial on (combos.customer = q3initial.customer and combos.product = q3initial.product and combos.state = q3initial.state)
+), q4 as (
+SELECT combos.customer, combos.product, combos.state, q, avg_quant
+FROM combos left join q4initial on (combos.customer = q4initial.customer and combos.product = q4initial.product and combos.state = q4initial.state)
+), qs as (
+SELECT * FROM q1
+UNION
+SELECT * FROM q2
+UNION
+SELECT * FROM q3
+UNION
+SELECT * FROM q4
+), allquarters as (
+SELECT combos.customer, combos.product, combos.state, q, avg_quant
+FROM combos left join qs on (combos.customer = qs.customer and combos.product = qs.product and combos.state = qs.state)
+ORDER BY customer, product, state, q
+), befores as (
+SELECT t1.customer, t1.product, t1.state, t1.q, t2.avg_quant as before_avg
+FROM allquarters as t1, allquarters as t2
+WHERE t1.customer = t2.customer and t1.product = t2.product and t1.state = t2.state and t1.q = t2.q+1
+), afters as (
+SELECT t1.customer, t1.product, t1.state, t1.q, t2.avg_quant as after_avg
+FROM allquarters as t1, allquarters as t2
+WHERE t1.customer = t2.customer and t1.product = t2.product and t1.state = t2.state and t1.q = t2.q-1
+)
+SELECT allquarters.customer, allquarters.product, allquarters.state, allquarters.q, before_avg, after_avg
+FROM allquarters left join befores on (allquarters.customer = befores.customer and allquarters.product = befores.product and allquarters.state = befores.state and allquarters.q = befores.q)
+left join afters on (allquarters.customer = afters.customer and allquarters.product = afters.product and allquarters.state = afters.state and allquarters.q = afters.q)
+ORDER BY customer, product, state, q
+
+
+-- Query 3
+
+WITH sord as (
+SELECT prod as product, quant
+FROM sales
+ORDER BY product, quant
+), medians as (
+SELECT product, (count(quant)/2)+1 as median
+FROM sord
+GROUP BY product
+ORDER BY product
+), counts as (
+SELECT s1.product, s1.quant, count(s2.quant) as cnt
+FROM sord as s1 join sord as s2 on (s1.product = s2.product and s2.quant<=s1.quant)
+GROUP BY s1.product, s1.quant
+ORDER BY s1.product, s1.quant
+)
+SELECT counts.product, counts.quant as median_quant
+FROM medians join counts on (counts.product = medians.product and counts.cnt = medians.median)
+
+
+/* Query 4 */
+
+WITH individualtotals as (
+SELECT cust as customer, prod as product, month, sum(quant) as total
+FROM sales
+GROUP BY customer, product, month
+ORDER BY customer, product, month
+), monthlytotals as (
+SELECT customer, product, sum(total) as monthly_total
+FROM individualtotals
+GROUP BY customer, product
+ORDER BY customer, product
+), cumulativetotals as (
+SELECT s1.customer, s1.product, s1.month, s1.total, sum(s2.total) as cumulative_total
+FROM individualtotals as s1 join individualtotals as s2 on (s2.month<=s1.month and s1.customer = s2.customer and s1.product = s2.product)
+GROUP BY s1.customer, s1.product, s1.month, s1.total
+ORDER BY s1.customer, s1.product, s1.month
+), seventyfivepercent as (
+SELECT c.customer, c.product, c.month
+FROM cumulativetotals as c, monthlytotals as m
+WHERE c.customer = m.customer and c.product = m.product and c.cumulative_total>=(.75*m.monthly_total)
+ORDER BY c.customer, c.product, c.month
+)
+SELECT customer, product, min(month) as "75%_purchased_by_month"
+FROM seventyfivepercent
+GROUP BY customer, product
+ORDER BY customer, product
+

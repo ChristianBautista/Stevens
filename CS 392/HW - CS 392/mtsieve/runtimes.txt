@@ -1,0 +1,14 @@
+Ankit Patel & Christian Bautista
+
+CS392: MTSieve Assignment Runtimes:
+
+I pledge my honor that I have abided by the Stevens Honor System.
+
+./mtsieve -s100 -e200000000 -t1 : 0m2.446s
+./mtsieve -s100 -e200000000 -t2 : 0m1.869s
+./mtsieve -s100 -e200000000 -t3 : 0m1.827s
+./mtsieve -s100 -e200000000 -t4 : 0m1.812s
+
+
+My CPU is: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz.
+Although time decreases as the number of threads increases, time does NOT appear to scale linearly with the number of threads. As the number of threads increases, time appears to plateau. Ie: the speedup becomes less significant (diminishing returns). 

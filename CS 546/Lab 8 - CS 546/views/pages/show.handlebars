@@ -1,0 +1,27 @@
+<!--name, img, language, genres, ratingAverage, networkName, summary--> 
+<article class="show-result">
+    <h1>{{title}}</h1>
+    <img alt="{{title}}" src="{{img}}"/>
+    <dl>
+        <dt>Language</dt>
+        <dd>{{language}}</dd>
+        <dt>Genres</dt>
+        <dd>
+            {{#if genres.length}}
+                <ul>
+                    {{#each genres}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            {{else}}
+                N/A
+            {{/if}}
+        </dd>
+        <dt>Average Rating</dt>
+        <dd>{{ratingAverage}}</dd>
+        <dt>Network</dt>
+        <dd>{{networkName}}</dd>
+        <dt>Summary</dt>
+        <dd>{{{summary}}}</dd>
+    </dl>
+</article>

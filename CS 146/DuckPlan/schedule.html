@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>DuckPlan Calendar</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+  	</head>
+  	<body>
+		<ul class="navbar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="survey.html">Survey</a></li>
+			<li><a href="calendar.html">Calendar</a></li>
+            <li><a class="active" href="schedule.html">Schedule</a></li>
+		</ul>
+        <div id="questions"></div>
+        <br id="brk"></br>
+        <button id="display" onclick="updateTable()">Display</button>
+        <button id="clear" onclick="clearStorage()">Clear</button>
+        <div id="schedule">
+            <table>
+                <caption><h1>Week of 12/2 to 12/6</h1></caption>
+                <tr>
+                    <th><strong>Time</strong></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th class="last">Sunday</th>
+                </tr>
+                <tr></tr>
+                <tr id="8:00">
+                    <th>8:00</th>
+                    <td id="mon8:00" type="false"></td>
+                    <td id="tue8:00" type="false"></td>
+                    <td id="wed8:00" type="false"></td>
+                    <td id="thu8:00" type="false"></td>
+                    <td id="fri8:00" type="false"></td>
+                    <td id="sat8:00" type="false"></td>
+                    <td id="sun8:00" type="false"></td>
+                </tr>
+                <tr id="8:30">
+                    <th>8:30</th>
+                    <td id="mon8:30" type="false"></td>
+                    <td id="tue8:30" type="false"></td>
+                    <td id="wed8:30" type="false"></td>
+                    <td id="thu8:30" type="false"></td>
+                    <td id="fri8:30" type="false"></td>
+                    <td id="sat8:30" type="false"></td>
+                    <td id="sun8:30" type="false"></td>
+                </tr>
+                <tr id="9:00">
+                    <th>9:00</th>
+                    <td id="mon9:00" type="false"></td>
+                    <td id="tue9:00" type="false"></td>
+                    <td id="wed9:00" type="false"></td>
+                    <td id="thu9:00" type="false"></td>
+                    <td id="fri9:00" type="false"></td>
+                    <td id="sat9:00" type="false"></td>
+                    <td id="sun9:00" type="false"></td>
+                </tr>
+                <tr id="9:30">
+                    <th>9:30</th>
+                    <td id="mon9:30" type="false"></td>
+                    <td id="tue9:30" type="false"></td>
+                    <td id="wed9:30" type="false"></td>
+                    <td id="thu9:30" type="false"></td>
+                    <td id="fri9:30" type="false"></td>
+                    <td id="sat9:30" type="false"></td>
+                    <td id="sun9:30" type="false"></td>
+                </tr>
+                <tr id="10:00">
+                    <th>10:00</th>
+                    <td id="mon10:00" type="false"></td>
+                    <td id="tue10:00" type="false"></td>
+                    <td id="wed10:00" type="false"></td>
+                    <td id="thu10:00" type="false"></td>
+                    <td id="fri10:00" type="false"></td>
+                    <td id="sat10:00" type="false"></td>
+                    <td id="sun10:00" type="false"></td>
+                </tr>
+                <tr id="10:30">
+                    <th>10:30</th>
+                    <td id="mon10:30" type="false"></td>
+                    <td id="tue10:30" type="false"></td>
+                    <td id="wed10:30" type="false"></td>
+                    <td id="thu10:30" type="false"></td>
+                    <td id="fri10:30" type="false"></td>
+                    <td id="sat10:30" type="false"></td>
+                    <td id="sun10:30" type="false"></td>
+                </tr>
+                <tr id="11:00">
+                    <th>11:00</th>
+                    <td id="mon11:00" type="false"></td>
+                    <td id="tue11:00" type="false"></td>
+                    <td id="wed11:00" type="false"></td>
+                    <td id="thu11:00" type="false"></td>
+                    <td id="fri11:00" type="false"></td>
+                    <td id="sat11:00" type="false"></td>
+                    <td id="sun11:00" type="false"></td>
+                </tr>
+                <tr id="11:30">
+                    <th>11:30</th>
+                    <td id="mon11:30" type="false"></td>
+                    <td id="tue11:30" type="false"></td>
+                    <td id="wed11:30" type="false"></td>
+                    <td id="thu11:30" type="false"></td>
+                    <td id="fri11:30" type="false"></td>
+                    <td id="sat11:30" type="false"></td>
+                    <td id="sun11:30" type="false"></td>
+                </tr>
+                <tr id="12:00">
+                    <th>12:00</th>
+                    <td id="mon12:00" type="false"></td>
+                    <td id="tue12:00" type="false"></td>
+                    <td id="wed12:00" type="false"></td>
+                    <td id="thu12:00" type="false"></td>
+                    <td id="fri12:00" type="false"></td>
+                    <td id="sat12:00" type="false"></td>
+                    <td id="sun12:00" type="false"></td>
+                </tr>
+                <tr id="12:30">
+                    <th>12:30</th>
+                    <td id="mon12:30" type="false"></td>
+                    <td id="tue12:30" type="false"></td>
+                    <td id="wed12:30" type="false"></td>
+                    <td id="thu12:30" type="false"></td>
+                    <td id="fri12:30" type="false"></td>
+                    <td id="sat12:30" type="false"></td>
+                    <td id="sun12:30" type="false"></td>
+                </tr>
+                <tr id="1:00">
+                    <th>1:00</th>
+                    <td id="mon1:00" type="false"></td>
+                    <td id="tue1:00" type="false"></td>
+                    <td id="wed1:00" type="false"></td>
+                    <td id="thu1:00" type="false"></td>
+                    <td id="fri1:00" type="false"></td>
+                    <td id="sat1:00" type="false"></td>
+                    <td id="sun1:00" type="false"></td>
+                </tr>
+                <tr id="1:30">
+                    <th>1:30</th>
+                    <td id="mon1:30" type="false"></td>
+                    <td id="tue1:30" type="false"></td>
+                    <td id="wed1:30" type="false"></td>
+                    <td id="thu1:30" type="false"></td>
+                    <td id="fri1:30" type="false"></td>
+                    <td id="sat1:30" type="false"></td>
+                    <td id="sun1:30" type="false"></td>
+                </tr>
+                <tr id="2:00">
+                    <th>2:00</th>
+                    <td id="mon2:00" type="false"></td>
+                    <td id="tue2:00" type="false"></td>
+                    <td id="wed2:00" type="false"></td>
+                    <td id="thu2:00" type="false"></td>
+                    <td id="fri2:00" type="false"></td>
+                    <td id="sat2:00" type="false"></td>
+                    <td id="sun2:00" type="false"></td>
+                </tr>
+                <tr id="2:30">
+                    <th>2:30</th>
+                    <td id="mon2:30" type="false"></td>
+                    <td id="tue2:30" type="false"></td>
+                    <td id="wed2:30" type="false"></td>
+                    <td id="thu2:30" type="false"></td>
+                    <td id="fri2:30" type="false"></td>
+                    <td id="sat2:30" type="false"></td>
+                    <td id="sun2:30" type="false"></td>
+                </tr>
+                <tr id="3:00">
+                    <th>3:00</th>
+                    <td id="mon3:00" type="false"></td>
+                    <td id="tue3:00" type="false"></td>
+                    <td id="wed3:00" type="false"></td>
+                    <td id="thu3:00" type="false"></td>
+                    <td id="fri3:00" type="false"></td>
+                    <td id="sat3:00" type="false"></td>
+                    <td id="sun3:00" type="false"></td>
+                </tr>
+                <tr id="3:30">
+                    <th>3:30</th>
+                    <td id="mon3:30" type="false"></td>
+                    <td id="tue3:30" type="false"></td>
+                    <td id="wed3:30" type="false"></td>
+                    <td id="thu3:30" type="false"></td>
+                    <td id="fri3:30" type="false"></td>
+                    <td id="sat3:30" type="false"></td>
+                    <td id="sun3:30" type="false"></td>
+                </tr>
+                <tr id="4:00">
+                    <th>4:00</th>
+                    <td id="mon4:00" type="false"></td>
+                    <td id="tue4:00" type="false"></td>
+                    <td id="wed4:00" type="false"></td>
+                    <td id="thu4:00" type="false"></td>
+                    <td id="fri4:00" type="false"></td>
+                    <td id="sat4:00" type="false"></td>
+                    <td id="sun4:00" type="false"></td>
+                </tr>
+                <tr id="4:30">
+                    <th>4:30</th>
+                    <td id="mon4:30" type="false"></td>
+                    <td id="tue4:30" type="false"></td>
+                    <td id="wed4:30" type="false"></td>
+                    <td id="thu4:30" type="false"></td>
+                    <td id="fri4:30" type="false"></td>
+                    <td id="sat4:30" type="false"></td>
+                    <td id="sun4:30" type="false"></td>
+                </tr>
+                <tr id="5:00">
+                    <th>5:00</th>
+                    <td id="mon5:00" type="false"></td>
+                    <td id="tue5:00" type="false"></td>
+                    <td id="wed5:00" type="false"></td>
+                    <td id="thu5:00" type="false"></td>
+                    <td id="fri5:00" type="false"></td>
+                    <td id="sat5:00" type="false"></td>
+                    <td id="sun5:00" type="false"></td>
+                </tr>
+                <tr id="5:30">
+                    <th>5:30</th>
+                    <td id="mon5:30" type="false"></td>
+                    <td id="tue5:30" type="false"></td>
+                    <td id="wed5:30" type="false"></td>
+                    <td id="thu5:30" type="false"></td>
+                    <td id="fri5:30" type="false"></td>
+                    <td id="sat5:30" type="false"></td>
+                    <td id="sun5:30" type="false"></td>
+                </tr>
+                <tr id="6:00">
+                    <th>6:00</th>
+                    <td id="mon6:00" type="false"></td>
+                    <td id="tue6:00" type="false"></td>
+                    <td id="wed6:00" type="false"></td>
+                    <td id="thu6:00" type="false"></td>
+                    <td id="fri6:00" type="false"></td>
+                    <td id="sat6:00" type="false"></td>
+                    <td id="sun6:00" type="false"></td>
+                </tr>
+                <tr id="6:30">
+                    <th>6:30</th>
+                    <td id="mon6:30" type="false"></td>
+                    <td id="tue6:30" type="false"></td>
+                    <td id="wed6:30" type="false"></td>
+                    <td id="thu6:30" type="false"></td>
+                    <td id="fri6:30" type="false"></td>
+                    <td id="sat6:30" type="false"></td>
+                    <td id="sun6:30" type="false"></td>
+                </tr>
+                <tr id="7:00">
+                    <th>7:00</th>
+                    <td id="mon7:00" type="false"></td>
+                    <td id="tue7:00" type="false"></td>
+                    <td id="wed7:00" type="false"></td>
+                    <td id="thu7:00" type="false"></td>
+                    <td id="fri7:00" type="false"></td>
+                    <td id="sat7:00" type="false"></td>
+                    <td id="sun7:00" type="false"></td>
+                </tr>
+                <tr id="7:30">
+                    <th>7:30</th>
+                    <td id="mon7:30" type="false"></td>
+                    <td id="tue7:30" type="false"></td>
+                    <td id="wed7:30" type="false"></td>
+                    <td id="thu7:30" type="false"></td>
+                    <td id="fri7:30" type="false"></td>
+                    <td id="sat7:30" type="false"></td>
+                    <td id="sun7:30" type="false"></td>
+                </tr>
+            </table>
+        </div>
+        <script src="scheduleScript.js"></script>
+  	</body>
+</html>

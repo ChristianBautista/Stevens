@@ -1,0 +1,27 @@
+h1
+{
+    color: blue;
+}
+h2
+{
+    color: salmon;
+}
+p::first-letter
+{
+    font-size: 200%;
+}
+.pclass
+{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ul
+{
+    list-style: none;
+    display: inline;
+}
+.horizontal
+{
+    float: left;
+}

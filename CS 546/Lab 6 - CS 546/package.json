@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "Creates a simple server that provides an API for someone to perform CRUD operations on bands and albums.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Christian Bautista 10450958",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1"
+  }
+}

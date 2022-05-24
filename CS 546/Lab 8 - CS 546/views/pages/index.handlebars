@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<article class="section-styling">
+    <p class="para">
+        Welcome to the TV Show Catalog!
+        You may search for a tv show and will be provided with multiple results related to your search term(s).
+        From those results, you may select one to learn more information about it.
+    </p>
+    
+    <form action="/searchshows" method="POST">
+        <label for="showSearchTerm">Search Term:</label>
+        <input id="showSearchTerm" type="text" name="showSearchTerm"/>
+        <button type="submit">Search</button>
+    </form>
+</article>

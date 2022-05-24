@@ -1,0 +1,386 @@
+body
+{
+	margin: 0;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover 
+{
+    background-color: green;
+}
+.active 
+{
+    background-color: darkred;
+}
+@media screen and (max-width: 500px)
+{
+	li.right, li
+	{
+		float: none;
+	}
+}
+.mBody
+{
+    background-color: grey;
+    color: white;
+}
+.mDiv
+{
+    background-color: darkred;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px; 
+	padding: 8px
+}
+.sDiv
+{
+    background-color: grey;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-radius: 5px; 
+	padding: 8px;
+    height: 15px;
+}
+.autoFit
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:90%;
+    max-height:80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hFont
+{
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2px;
+	margin-top: 6px;
+	text-align: center;
+}
+.h2Font
+{
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2px;
+	margin-top: 6px;
+	text-align: center;
+}
+.mFont
+{
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: 500;
+    font-size: 13px;
+	line-height: 15px;
+	text-align: center;
+}
+.survey-header
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.survey-page
+{
+	width: 360px;
+	padding-top: 50px;
+	margin: auto;
+}
+.survey
+{
+    position: relative;
+	z-index: 1;
+	background: white;
+	max-width: 360px;
+	margin: 0 auto 100px;
+}
+.survey-form input
+{
+    outline: 1;
+	background: whitesmoke;
+	width: 100%;
+	border: 0;
+	margin: 0 0 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.survey-form select
+{
+    outline: 1;
+	background: whitesmoke;
+	width: 100%;
+	border: 0;
+	margin: 0 0 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.survey-form button
+{
+    text-transform: uppercase;
+	outline: 0;
+	background: rgb(61, 184, 61);
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+}
+.error-message
+{
+	margin-bottom: 25px;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px .613535;
+	background-color: #d17777;
+	color: #613535;
+}
+.success-message
+{
+	margin-bottom: 25px;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px #52663c;
+	background-color: #a6cf7a;
+	color: #52663c;
+}
+.tab, #schedule
+{
+    align-items: center;
+    justify-content: center;
+    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+table 
+{
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+table tbody
+{
+    display: block;
+}
+table tr:nth-child(even) th 
+{
+    color: #ccc;
+    font-weight: normal;
+}
+table th, table td 
+{
+    padding: 0.5rem 1rem;
+}
+table th 
+{
+    height: 50px;
+    width: 1px;
+    font-weight: normal;
+    border-top: thin dotted #ccc;
+    border-left: thin dotted #ccc;
+    border-right: thin dotted #ccc;
+    border-bottom: thin dotted #ccc;
+}
+.last
+{
+    border-right: thin dotted #ccc;
+}
+table td 
+{
+    color: white;
+    line-height: 1.4;
+    border-radius: 20px;
+    border-bottom: thin dotted #ccc;
+    border-right: thin dotted #ccc;
+    text-align: center;
+}
+button
+{
+	text-transform: uppercase;
+	outline: 0;
+	background: rgb(61, 184, 61);
+	width: 100px;
+	border: 0;
+	padding: 5px;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+}
+.lecture
+{
+    background-color: red;
+}
+.courses, .desc
+{
+    align-content: center;
+    font-size: 13px;
+    overflow: auto;
+}
+.teach
+{
+    align-content: center;
+    font-size: 13px;
+    font-style: italic;
+}
+.Lab, .lab
+{
+    background-color: lightgreen;
+}
+.Reading, .read
+{
+    background-color: brown;
+}
+.Project, .project
+{
+    background-color: blue;
+}
+.Homework, .hw
+{
+    background-color: orange;
+}
+.Studying, .study
+{
+    background-color: yellowgreen;
+}
+.Paper, .paper
+{
+    background-color: purple;
+}
+.Presentation, .prez
+{
+    background-color: pink;
+}
+@media screen and (min-width: 600px) and (max-width: 760px)
+{
+    table tbody
+    {
+        width: 550px;
+        overflow: auto;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 599px)
+{
+    table tbody
+    {
+        width: 450px;
+        overflow: auto;
+    }
+}
+@media screen and (max-width: 499px)
+{
+    table tbody
+    {
+        width: 350px;
+        overflow: auto;
+    }
+}
+@media screen and (min-height: 900px) and (max-height: 999px)
+{
+    table tbody
+    {
+        height: 770px;
+        overflow: auto;
+    }
+}
+@media screen and (min-height: 800px) and (max-height: 899px)
+{
+    table tbody
+    {
+        height: 670px;
+        overflow: auto;
+    }
+}
+@media screen and (min-height: 700px) and (max-height: 799px)
+{
+    table tbody
+    {
+        height: 570px;
+        overflow: auto;
+    }
+}
+@media screen and (min-height: 600px) and (max-height: 699px)
+{
+    table tbody
+    {
+        height: 470px;
+        overflow: auto;
+    }
+}
+@media screen and (min-height: 500px) and (max-height: 599px)
+{
+    table tbody
+    {
+        height: 370px;
+        overflow: auto;
+    }
+}
+@media screen and (min-height: 400px) and (max-height: 499px)
+{
+    table tbody
+    {
+        height: 270px;
+        overflow: auto;
+    }
+}
+@media screen and (min-height: 300px) and (max-height: 399px)
+{
+    table tbody
+    {
+        height: 170px;
+        overflow: auto;
+    }
+}
+@media screen and (min-height: 200px) and (max-height: 299px)
+{
+    table tbody
+    {
+        height: 70px;
+        overflow: auto;
+    }
+}
+@media screen and (min-width: 999px) {
+    /* This is the default setting */
+}
+@media screen and (max-width: 998px) and (min-width: 400px) {
+    .mDiv {
+        background-color: darkred;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 399px) {
+    .mDiv {
+        background-color: darkred;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 60%;
+    }
+}

@@ -1,0 +1,164 @@
+/*
+Name: Christian Bautista
+CWID: 10450958
+--*/
+
+-- Query 1
+WITH aggs as (
+SELECT cust as customer, min(quant) as min_q, max(quant) as max_q, avg(quant) as avg_q
+FROM sales
+GROUP BY cust),
+
+min_details as (
+SELECT a.customer, a.min_q, prod as min_prod, date as min_date, state as min_st, max_q, avg_q
+FROM aggs as a, sales as s
+WHERE a.customer = s.cust and a.min_q = s.quant)
+
+SELECT m.customer, m.min_q, min_prod, min_date, min_st, m.max_q, s.prod as max_prod, s.date as max_date, s.state as max_state, m.avg_q
+FROM min_details as m, sales as s
+WHERE m.customer = s.cust and m.max_q = s.quant
+ORDER BY m.customer
+
+-- Query 2
+WITH oct_sales as (
+SELECT cust as customer, prod as product, max(quant) as oct_max
+FROM sales
+WHERE month=10 and year>2017
+GROUP BY customer, product),
+
+oct_details as (
+SELECT customer, product, oct_max, date as oct_date
+FROM oct_sales, sales
+WHERE customer = cust and product = prod and oct_max = quant and month=10 and year>2017),
+
+nov_sales as (
+SELECT cust as customer, prod as product, min(quant) as nov_min
+FROM sales
+WHERE month=11
+GROUP BY customer,product),
+
+nov_details as (
+SELECT customer, product, nov_min, date as nov_date
+FROM nov_sales as n, sales as s
+WHERE customer = cust and product = prod and nov_min = quant and month=11),
+
+dec_sales as (
+SELECT cust as customer, prod as product, min(quant) as dec_min
+FROM sales
+WHERE month=12
+GROUP BY customer,product),
+
+dec_details as (
+SELECT customer, product, dec_min, date as dec_date
+FROM dec_sales as d, sales as s
+WHERE customer = cust and product = prod and dec_min = quant and month=12)
+
+SELECT customer, product, oct_max, oct_date, nov_min, nov_date, dec_min, dec_date
+FROM oct_details natural join nov_details natural join dec_details
+ORDER BY customer, product
+
+-- Query 3
+WITH total_qs as (
+SELECT month, prod as product, sum(quant) as total_q 
+FROM sales
+GROUP BY month, product),
+
+maxes as (
+SELECT month, max(total_q) as most_pop_total_q
+FROM total_qs
+GROUP BY month),
+
+maxes_details as (
+SELECT maxes.month, product as most_popular_prod, most_pop_total_q
+FROM maxes, total_qs
+WHERE most_pop_total_q = total_q),
+
+mins as (
+SELECT month, min(total_q) as least_pop_total_q
+FROM total_qs
+GROUP BY month),
+
+mins_details as (
+SELECT mins.month, product as least_popular_prod, least_pop_total_q
+FROM mins, total_qs
+WHERE least_pop_total_q = total_q)
+
+SELECT month, most_popular_prod, most_pop_total_q, least_popular_prod, least_pop_total_q
+FROM maxes_details natural join mins_details
+ORDER BY month
+
+-- Query 4
+WITH total_qs as (
+SELECT month, prod as product, sum(quant) as total_q 
+FROM sales
+GROUP BY product, month),
+
+maxes as (
+SELECT product, max(total_q) as max_total_q
+FROM total_qs
+GROUP BY product),
+
+maxes_details as (
+SELECT maxes.product, month as most_fav_mo
+FROM maxes, total_qs
+WHERE max_total_q = total_q),
+
+mins as (
+SELECT product, min(total_q) as min_total_q
+FROM total_qs
+GROUP BY product),
+
+mins_details as (
+SELECT mins.product, month as least_fav_mo
+FROM mins, total_qs
+WHERE min_total_q = total_q)
+
+SELECT product, most_fav_mo, least_fav_mo
+FROM maxes_details natural join mins_details
+ORDER BY product
+
+-- Query 5
+WITH st_avgs as (
+SELECT prod as product, cust as customer, state, avg(quant) as avg_q
+FROM sales
+WHERE year>=2016 and year<=2020 and (state='CT' or state='NY' or state='NJ' or state='PA')
+GROUP BY product, customer, state),
+
+ct_avgs as (
+SELECT product, customer, avg_q as ct_avg
+FROM st_avgs
+WHERE state = 'CT'),
+
+ny_avgs as (
+SELECT product, customer, avg_q as ny_avg
+FROM st_avgs
+WHERE state = 'NY'),
+
+nj_avgs as (
+SELECT product, customer, avg_q as nj_avg
+FROM st_avgs
+WHERE state = 'NJ'),
+
+pa_avgs as (
+SELECT product, customer, avg_q as pa_avg
+FROM st_avgs
+WHERE state = 'PA'),
+
+averages as (
+SELECT prod as product, cust as customer, avg(quant) as average
+FROM sales
+GROUP BY product, customer),
+
+totals as (
+SELECT prod as product, cust as customer, sum(quant) as total
+FROM sales
+GROUP BY product, customer),
+
+counts as (
+SELECT prod as product, cust as customer, count(quant) as count
+FROM sales
+GROUP BY product, customer)
+
+SELECT product, customer, ct_avg, ny_avg, nj_avg, pa_avg, average, total, count
+FROM ct_avgs natural join ny_avgs natural join nj_avgs natural join pa_avgs natural join averages natural join totals natural join counts
+ORDER BY product, customer

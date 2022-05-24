@@ -1,0 +1,37 @@
+Dec 12, 2021 10:26:37 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: Starting HTTP server...
+Dec 12, 2021 10:26:39 AM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [DESKTOP-QH43QTC.fios-router.home:8080]
+Dec 12, 2021 10:26:39 AM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Dec 12, 2021 10:26:39 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: Listening at http://DESKTOP-QH43QTC.fios-router.home:8080
+Dec 12, 2021 10:26:39 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: Service available at http://DESKTOP-QH43QTC.fios-router.home:8080/chat
+Hit enter to stop...
+Dec 12, 2021 10:29:19 AM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (appId=cd25fe8a-5b37-47d7-8912-858002107e42, chat-name=Alice, timestamp=1639322958304, latitude=40.744906, longitude=-74.023937)
+Dec 12, 2021 10:29:19 AM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Alice with UUID cd25fe8a-5b37-47d7-8912-858002107e42.
+Dec 12, 2021 10:29:40 AM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (appId=858bc00f-37f8-4f0a-9296-888d4fdd33e2, chat-name=Bob, timestamp=1639322980329, latitude=40.744906, longitude=-74.023937)
+Dec 12, 2021 10:29:40 AM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Bob with UUID 858bc00f-37f8-4f0a-9296-888d4fdd33e2.
+Dec 12, 2021 10:29:46 AM edu.stevens.cs522.chat.webservice.ChatResource sync
+INFO: Received sync request (id = 1, appId = cd25fe8a-5b37-47d7-8912-858002107e42, seqNum = 0)
+Dec 12, 2021 10:30:24 AM edu.stevens.cs522.chat.webservice.ChatResource sync
+INFO: Received sync request (id = 2, appId = 858bc00f-37f8-4f0a-9296-888d4fdd33e2, seqNum = 0)
+Dec 12, 2021 10:30:47 AM edu.stevens.cs522.chat.webservice.ChatResource sync
+INFO: Received sync request (id = 1, appId = cd25fe8a-5b37-47d7-8912-858002107e42, seqNum = 0)
+Dec 12, 2021 10:31:24 AM edu.stevens.cs522.chat.webservice.ChatResource sync
+INFO: Received sync request (id = 2, appId = 858bc00f-37f8-4f0a-9296-888d4fdd33e2, seqNum = 2)
+Dec 12, 2021 10:31:47 AM edu.stevens.cs522.chat.webservice.ChatResource sync
+INFO: Received sync request (id = 1, appId = cd25fe8a-5b37-47d7-8912-858002107e42, seqNum = 4)
+Dec 12, 2021 10:32:24 AM edu.stevens.cs522.chat.webservice.ChatResource sync
+INFO: Received sync request (id = 2, appId = 858bc00f-37f8-4f0a-9296-888d4fdd33e2, seqNum = 4)
+Dec 12, 2021 10:32:50 AM edu.stevens.cs522.chat.webservice.ChatResource sync
+INFO: Received sync request (id = 1, appId = cd25fe8a-5b37-47d7-8912-858002107e42, seqNum = 4)
+Dec 12, 2021 10:33:25 AM edu.stevens.cs522.chat.webservice.ChatResource sync
+INFO: Received sync request (id = 2, appId = 858bc00f-37f8-4f0a-9296-888d4fdd33e2, seqNum = 4)
+Dec 12, 2021 10:36:33 AM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [DESKTOP-QH43QTC.fios-router.home:8080]

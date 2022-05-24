@@ -1,0 +1,11 @@
+# dune utop src
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune079a5f.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/dune5402e8.output
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/checker.ml) > _build/default/src/.checked.objs/checker.ml.d
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.checked.objs -I src/.checked.objs/.private -no-alias-deps -opaque -open Checked -o src/.checked.objs/checked__Checker.cmo -c -impl src/checker.ml)
+> File "src/checker.ml", line 75, characters 20-22:
+> Error: This expression has type texpr list
+>        but an expression was expected of type string list
+>        Type texpr is not compatible with type string 
+[2]

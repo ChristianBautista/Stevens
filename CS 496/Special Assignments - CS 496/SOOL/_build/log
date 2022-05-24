@@ -1,0 +1,68 @@
+# dune runtest
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dunea42668.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/dunefc618a.output
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl test/test.ml) > _build/default/test/.test.eobjs/test.ml.d
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl test/test_lib.ml) > _build/default/test/.test.eobjs/test_lib.ml.d
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/ast.ml) > _build/default/src/.sool.objs/ast.ml.d
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/ds.ml) > _build/default/src/.sool.objs/ds.ml.d
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/interp.ml) > _build/default/src/.sool.objs/interp.ml.d
+$ (cd _build/default && /usr/bin/ocamllex.opt -q -o src/lexer.ml src/lexer.mll)
+$ (cd _build/default/src && /home/christianbautista/.opam/system/bin/menhir parser.mly --base parser)
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/store.ml) > _build/default/src/.sool.objs/store.ml.d
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -g -bin-annot -I src/.sool.objs -I src/.sool.objs/.private -no-alias-deps -opaque -o src/.sool.objs/sool.cmo -c -impl src/sool.ml-gen)
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -intf src/store.mli) > _build/default/src/.sool.objs/store.mli.d
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/lexer.ml) > _build/default/src/.sool.objs/lexer.ml.d
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -intf src/parser.mli) > _build/default/src/.sool.objs/parser.mli.d
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/parser.ml) > _build/default/src/.sool.objs/parser.ml.d
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -g -I src/.sool.objs -I src/.sool.objs/.private -intf-suffix .ml-gen -no-alias-deps -opaque -o src/.sool.objs/sool.cmx -c -impl src/sool.ml-gen)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.sool.objs -I src/.sool.objs/.private -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Ast.cmo -c -impl src/ast.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.sool.objs -I src/.sool.objs/.private -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Parser.cmi -c -intf src/parser.mli)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.sool.objs -I src/.sool.objs/.private -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Ds.cmo -c -impl src/ds.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.sool.objs -I src/.sool.objs/.private -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Store.cmi -c -intf src/store.mli)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.sool.objs -I src/.sool.objs/.private -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Lexer.cmo -c -impl src/lexer.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I src/.sool.objs -I src/.sool.objs/.private -intf-suffix .ml -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Ast.cmx -c -impl src/ast.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I src/.sool.objs -I src/.sool.objs/.private -intf-suffix .ml -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Ds.cmx -c -impl src/ds.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I src/.sool.objs -I src/.sool.objs/.private -intf-suffix .ml -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Store.cmx -c -impl src/store.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.sool.objs -I src/.sool.objs/.private -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Interp.cmo -c -impl src/interp.ml)
+> File "src/interp.ml", line 74, characters 8-15:
+> Warning 39: unused rec flag.
+> File "src/interp.ml", line 76, characters 46-47:
+> Warning 27: unused variable x.
+> File "src/interp.ml", line 91, characters 10-11:
+> Warning 27: unused variable s.
+> File "src/interp.ml", line 91, characters 12-13:
+> Warning 27: unused variable f.
+> File "src/interp.ml", line 228, characters 9-14:
+> Warning 27: unused variable super.
+> File "src/interp.ml", line 230, characters 85-86:
+> Warning 27: unused variable x.
+> File "src/interp.ml", line 234, characters 8-9:
+> Warning 11: this match case is unused.
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I src/.sool.objs -I src/.sool.objs/.private -intf-suffix .ml -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Lexer.cmx -c -impl src/lexer.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I test/.test.eobjs -I /home/christianbautista/.opam/system/lib/bytes -I /home/christianbautista/.opam/system/lib/oUnit -I src/.sool.objs -no-alias-deps -opaque -o test/.test.eobjs/test_lib.cmo -c -impl test/test_lib.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I test/.test.eobjs -I /home/christianbautista/.opam/system/lib/bytes -I /home/christianbautista/.opam/system/lib/oUnit -I src/.sool.objs -no-alias-deps -opaque -o test/.test.eobjs/test.cmo -c -impl test/test.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I src/.sool.objs -I src/.sool.objs/.private -intf-suffix .ml -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Interp.cmx -c -impl src/interp.ml)
+> File "src/interp.ml", line 74, characters 8-15:
+> Warning 39: unused rec flag.
+> File "src/interp.ml", line 76, characters 46-47:
+> Warning 27: unused variable x.
+> File "src/interp.ml", line 91, characters 10-11:
+> Warning 27: unused variable s.
+> File "src/interp.ml", line 91, characters 12-13:
+> Warning 27: unused variable f.
+> File "src/interp.ml", line 228, characters 9-14:
+> Warning 27: unused variable super.
+> File "src/interp.ml", line 230, characters 85-86:
+> Warning 27: unused variable x.
+> File "src/interp.ml", line 234, characters 8-9:
+> Warning 11: this match case is unused.
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I test/.test.eobjs -I /home/christianbautista/.opam/system/lib/bytes -I /home/christianbautista/.opam/system/lib/oUnit -I src/.sool.objs -intf-suffix .ml -no-alias-deps -opaque -o test/.test.eobjs/test_lib.cmx -c -impl test/test_lib.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I test/.test.eobjs -I /home/christianbautista/.opam/system/lib/bytes -I /home/christianbautista/.opam/system/lib/oUnit -I src/.sool.objs -intf-suffix .ml -no-alias-deps -opaque -o test/.test.eobjs/test.cmx -c -impl test/test.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I src/.sool.objs -I src/.sool.objs/.private -intf-suffix .ml -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Parser.cmx -c -impl src/parser.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -a -o src/sool.cmxa src/.sool.objs/sool.cmx src/.sool.objs/sool__Ast.cmx src/.sool.objs/sool__Ds.cmx src/.sool.objs/sool__Store.cmx src/.sool.objs/sool__Parser.cmx src/.sool.objs/sool__Lexer.cmx src/.sool.objs/sool__Interp.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -o test/test.exe -I /home/christianbautista/.opam/system/lib/bytes -I /home/christianbautista/.opam/system/lib/oUnit -I src /usr/lib/ocaml/unix.cmxa /home/christianbautista/.opam/system/lib/oUnit/oUnitAdvanced.cmxa /home/christianbautista/.opam/system/lib/oUnit/oUnit.cmxa src/sool.cmxa test/.test.eobjs/test_lib.cmx test/.test.eobjs/test.cmx)
+$ (cd _build/default/test && ./test.exe)
+> .........
+> Ran: 9 tests in: 0.13 seconds.
+> OK

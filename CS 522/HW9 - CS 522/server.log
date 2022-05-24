@@ -1,0 +1,11 @@
+May 24, 2022 11:37:10 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: Starting HTTP server...
+May 24, 2022 11:37:11 AM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [DESKTOP-QH43QTC.fios-router.home:8080]
+May 24, 2022 11:37:11 AM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+May 24, 2022 11:37:11 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: Listening at http://DESKTOP-QH43QTC.fios-router.home:8080
+May 24, 2022 11:37:11 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: Service available at http://DESKTOP-QH43QTC.fios-router.home:8080/chat
+Hit enter to stop...
