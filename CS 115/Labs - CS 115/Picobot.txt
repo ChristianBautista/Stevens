@@ -1,0 +1,35 @@
+"I pledge to abide by the Stevens Honor Code."
+
+Christian Bautista
+Professor Nicolosi
+CS-115
+29 August 2019
+
+Picobot: Diamond Maze Solution
+
+#State Surroundings -> Move NewState
+#NEWS
+
+#Start = NxWS
+
+#Stage 0: Go to Start
+0 xEWS -> N 0
+0 NEWx -> S 0
+0 **x* -> W 0
+0 NxWx -> S 0
+0 xxWS -> N 0
+0 NxWS -> E 1
+
+#Stage 1: Cover Top
+1 x*** -> N 1
+1 N*** -> X 2
+
+#Stage 2: Cover Bottom
+2 ***x -> S 2
+2 xxWS -> E 1
+2 xEWS -> N 3
+2 xExS -> N 3
+
+#Stage 3: Move Past Middle
+3 *x** -> E 3
+3 *E** -> X 1
