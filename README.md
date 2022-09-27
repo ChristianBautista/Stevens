@@ -1,0 +1,18 @@
+# Stevens
+Coding Assignments, Projects, and Labs I worked on while pursuing my Bachelor's at Stevens Institute of Technology.
+- **CS 115:** *Intro to Computer Science* (Python)
+- **CS 135:** *Discrete Structures* (Racket)
+- **CS 146:** *Intro to Web Programming & Project Development* (HTML, CSS, JS)
+- **CS 284:** *Data Structures* (Java)
+- **CS 306:** *Intro to IT Security* (Java, Python)
+- **CS 383:** *Computer Organization & Programming* (LEGv8)
+- **CS 385:** *Algorithms* (C++)
+- **CS 392:** *Systems Programming* (C)
+- **CS 442:** *Database Management Systems* (SQL)
+- **CS 492:** *Operating Systems* (C)
+- **CS 496:** *Principles of Programming Language* (OCaml)
+- **CS 511:** *Concurrent Programming* (Erlang, Groovy, Promela)
+- **CS 522:** *Mobile Systems & Applications* (Java)
+- **CS 546:** *Web Programming I* (JS, Handlebars)
+- **CS 581:** *Online Social Networks* (Python)
+- **CS 583:** *Deep Learning* (Jupyter Notebook)
