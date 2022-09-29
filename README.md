@@ -1,5 +1,6 @@
 # Stevens
 Coding Assignments, Projects, and Labs I worked on while pursuing my Bachelor's at Stevens Institute of Technology.
+- **BT 353:** *Project Management* (Java)
 - **CS 115:** *Intro to Computer Science* (Python)
 - **CS 135:** *Discrete Structures* (Racket)
 - **CS 146:** *Intro to Web Programming & Project Development* (HTML, CSS, JS)
