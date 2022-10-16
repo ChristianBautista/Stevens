@@ -14,6 +14,6 @@ Coding Assignments, Projects, and Labs I worked on while pursuing my Bachelor's 
 - **CS 496:** *Principles of Programming Language* (OCaml)
 - **CS 511:** *Concurrent Programming* (Erlang, Groovy, Promela)
 - **CS 522:** *Mobile Systems & Applications* (Java)
-- **CS 546:** *Web Programming I* (JS, Handlebars)
+- **CS 546:** *Web Programming I* (JS, MongoDB, Handlebars)
 - **CS 581:** *Online Social Networks* (Python)
 - **CS 583:** *Deep Learning* (Jupyter Notebook)
