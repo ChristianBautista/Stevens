@@ -11,7 +11,7 @@ Coding Assignments, Projects, and Labs I worked on while pursuing my Bachelor's 
 - **CS 392:** *Systems Programming* (C)
 - **CS 442:** *Database Management Systems* (SQL)
 - **CS 492:** *Operating Systems* (C)
-- **CS 496:** *Principles of Programming Language* (OCaml)
+- **CS 496:** *Principles of Programming Languages* (OCaml)
 - **CS 511:** *Concurrent Programming* (Erlang, Groovy, Promela)
 - **CS 522:** *Mobile Systems & Applications* (Java)
 - **CS 546:** *Web Programming I* (JS, MongoDB, Handlebars)
